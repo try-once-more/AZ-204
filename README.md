@@ -1745,8 +1745,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 ### You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data. You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future. You need to implement a solution to receive the device data. Solution: Provision an Azure Service Bus. Configure a topic to receive the device data by using a correlation filter. Does the solution meet the goal?
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2408,3 +2408,4 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
