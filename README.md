@@ -2,11 +2,11 @@
 
 ![Question 1](images/question1.jpeg)
 
-A. Number of VM instances: 2. Pricing tier: Isolated.
-B. Number of VM instances: 8. Pricing tier: Standard.
-C. Number of VM instances: 16. Pricing tier: Premium.
-D. Number of VM instances: 4. Pricing tier: Isolated.
-E. Number of VM instances: 4. Pricing tier: Consumption.
+- A. Number of VM instances: 2. Pricing tier: Isolated.
+- B. Number of VM instances: 8. Pricing tier: Standard.
+- C. Number of VM instances: 16. Pricing tier: Premium.
+- D. Number of VM instances: 4. Pricing tier: Isolated.
+- E. Number of VM instances: 4. Pricing tier: Consumption.
 
 <details>
   <summary>Correct answer:</summary>
@@ -19,10 +19,10 @@ E. Number of VM instances: 4. Pricing tier: Consumption.
 
 ![Question 2](images/question2.jpeg)
 
-A. Box 1, CRD type: Deployment. Box 2, CRD type: ScaledObject. Box 3, CRD type: Secret.
-B. Box 1, CRD type: Secret. Box 2, CRD type: ScaledObject. Box 3, CRD type: Secret.
-C. Box 1, CRD type: TriggerAuthentication. Box 2, CRD type: Deployment. Box 3, CRD type: Secret.
-D. Box 1, CRD type: Deployment. Box 2, CRD type: ScaledObject. Box 3, CRD type: TriggerAuthentication.
+- A. Box 1, CRD type: Deployment. Box 2, CRD type: ScaledObject. Box 3, CRD type: Secret.
+- B. Box 1, CRD type: Secret. Box 2, CRD type: ScaledObject. Box 3, CRD type: Secret.
+- C. Box 1, CRD type: TriggerAuthentication. Box 2, CRD type: Deployment. Box 3, CRD type: Secret.
+- D. Box 1, CRD type: Deployment. Box 2, CRD type: ScaledObject. Box 3, CRD type: TriggerAuthentication.
 
 <details>
   <summary>Correct answer:</summary>
@@ -36,10 +36,10 @@ D. Box 1, CRD type: Deployment. Box 2, CRD type: ScaledObject. Box 3, CRD type: 
 ![Question 3 part 1](images/question3_1.png)
 ![Question 3 part 2](images/question3_2.jpeg)
 
-A. Box 1: `az webapp`. Box 2: `az webapp create`. Box 3: `git clone $gitrepo`. Box 4: `az webapp`. Box 5: `--plan $webappname`.
-B. Box 1: `az appservice plan create`. Box 2: `az webapp create`. Box 3: `--plan $webappname`. Box 4: `az webapp deployment`. Box 5: `--repo-url $gitrepo --branch master --manual-integration`.
-C. Box 1: `az appservice plan create`. Box 2: `az webapp deployment`. Box 3: `--plan $webappname`. Box 4: `az webapp deployment`. Box 5: `--repo-url $gitrepo --branch master --manual-integration`.
-D. Box 1: `az group delete`. Box 2: `az webapp create`. Box 3: `git clone $gitrepo`. Box 4: `az appservice plan create`. Box 5: `git clone $gitrepo`.
+- A. Box 1: `az webapp`. Box 2: `az webapp create`. Box 3: `git clone $gitrepo`. Box 4: `az webapp`. Box 5: `--plan $webappname`.
+- B. Box 1: `az appservice plan create`. Box 2: `az webapp create`. Box 3: `--plan $webappname`. Box 4: `az webapp deployment`. Box 5: `--repo-url $gitrepo --branch master --manual-integration`.
+- C. Box 1: `az appservice plan create`. Box 2: `az webapp deployment`. Box 3: `--plan $webappname`. Box 4: `az webapp deployment`. Box 5: `--repo-url $gitrepo --branch master --manual-integration`.
+- D. Box 1: `az group delete`. Box 2: `az webapp create`. Box 3: `git clone $gitrepo`. Box 4: `az appservice plan create`. Box 5: `git clone $gitrepo`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -50,8 +50,8 @@ D. Box 1: `az group delete`. Box 2: `az webapp create`. Box 3: `git clone $gitre
 
 ### You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2. When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute. You need to design the process that starts the photo processing. Solution: Trigger the photo processing from Blob storage events. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -62,8 +62,8 @@ B. No.
 
 ### You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named `Development`. You create additional deployment slots named `Testing` and `Production`. You enable auto swap on the `Production` deployment slot. You need to ensure that scripts run and resources are available before a swap operation occurs. Solution: Update the `web.config` file to include the `applicationInitialization` configuration element. Specify custom initialization actions to run the scripts. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -74,8 +74,8 @@ B. No.
 
 ### You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named `Development`. You create additional deployment slots named `Testing` and `Production`. You enable auto swap on the `Production` deployment slot. You need to ensure that scripts run and resources are available before a swap operation occurs. Solution: Enable auto swap for the `Testing` slot. Deploy the app to the `Testing` slot. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -86,8 +86,8 @@ B. No.
 
 ### You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named `Development`. You create additional deployment slots named `Testing` and `Production`. You enable auto swap on the `Production` deployment slot. You need to ensure that scripts run and resources are available before a swap operation occurs. Solution: Disable auto swap. Update the app with a method named `statuscheck` to run the scripts. Re-enable auto swap and deploy the app to the `Production` slot. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -98,8 +98,8 @@ B. No.
 
 ### You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2. When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute. You need to design the process that starts the photo processing. Solution: Convert the Azure Storage account to a BlockBlobStorage storage account. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -112,10 +112,10 @@ B. No.
 
 ![Question 9](images/question9.jpeg)
 
-A. Client certificate location: Client cookie. Encoding type: URL.
-B. Client certificate location: HTTP message body. Encoding type: Base64.
-C. Client certificate location: HTTP request header. Encoding type: Unicode.
-D. Client certificate location: HTTP request header. Encoding type: Base64.
+- A. Client certificate location: Client cookie. Encoding type: URL.
+- B. Client certificate location: HTTP message body. Encoding type: Base64.
+- C. Client certificate location: HTTP request header. Encoding type: Unicode.
+- D. Client certificate location: HTTP request header. Encoding type: Base64.
 
 <details>
   <summary>Correct answer:</summary>
@@ -128,10 +128,10 @@ D. Client certificate location: HTTP request header. Encoding type: Base64.
 
 ![Question 10](images/question10.png)
 
-A. Box 1: `az webapp create`. Box 2: `az appservice plan create`. Box 3: `az group create`.
-B. Box 1: `az appservice plan create`. Box 2: `az group create`. Box 3: `az group update`.
-C. Box 1: `az group create`. Box 2: `az appservice plan create`. Box 3: `az webapp create`.
-D. Box 1: `az appservice plan create`. Box 2: `az webapp create`. Box 3: `az webapp update`.
+- A. Box 1: `az webapp create`. Box 2: `az appservice plan create`. Box 3: `az group create`.
+- B. Box 1: `az appservice plan create`. Box 2: `az group create`. Box 3: `az group update`.
+- C. Box 1: `az group create`. Box 2: `az appservice plan create`. Box 3: `az webapp create`.
+- D. Box 1: `az appservice plan create`. Box 2: `az webapp create`. Box 3: `az webapp update`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -144,10 +144,10 @@ D. Box 1: `az appservice plan create`. Box 2: `az webapp create`. Box 3: `az web
 
 ![Question 11](images/question11.jpeg)
 
-A. Box 1: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`. Box 4: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`.
-B. Box 1: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`. Box 4: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`.
-C. Box 1: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`. Box 4: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`.
-D. Box 1: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`. Box 4: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`.
+- A. Box 1: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`. Box 4: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`.
+- B. Box 1: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`. Box 4: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`.
+- C. Box 1: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`. Box 4: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`.
+- D. Box 1: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`. Box 4: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -160,10 +160,10 @@ D. Box 1: `az webapp config hostname add --webapp-name $appName --resource-group
 
 ![Question 12](images/question12.png)
 
-A. Box 1: Create the Azure Functions app with a Consumption plan type. Box 2: Create an access policy in Azure Key Vault for the application identity. Box 3: Create a user-assigned managed identity for the application.
-B. Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a system-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
-C. Box 1: Create the Azure Functions app with a Consumption plan type. Box 2: Create a user-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
-D. Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a user-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
+- A. Box 1: Create the Azure Functions app with a Consumption plan type. Box 2: Create an access policy in Azure Key Vault for the application identity. Box 3: Create a user-assigned managed identity for the application.
+- B. Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a system-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
+- C. Box 1: Create the Azure Functions app with a Consumption plan type. Box 2: Create a user-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
+- D. Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a user-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
 
 <details>
   <summary>Correct answer:</summary>
@@ -174,10 +174,10 @@ D. Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create
 
 ### You develop a website. You plan to host the website in Azure. You expect the website to experience high traffic volumes after it is published. You must ensure that the website remains available and responsive while minimizing cost. You need to deploy the website. What should you do?
 
-A. Deploy the website to a virtual machine. Configure the virtual machine to automatically scale when the CPU load is high.
-B. Deploy the website to an App Service that uses the Shared service tier. Configure the App Service plan to automatically scale when the CPU load is high.
-C. Deploy the website to a virtual machine. Configure a Scale Set to increase the virtual machine instance count when the CPU load is high.
-D. Deploy the website to an App Service that uses the Standard service tier. Configure the App Service plan to automatically scale when the CPU load is high.
+- A. Deploy the website to a virtual machine. Configure the virtual machine to automatically scale when the CPU load is high.
+- B. Deploy the website to an App Service that uses the Shared service tier. Configure the App Service plan to automatically scale when the CPU load is high.
+- C. Deploy the website to a virtual machine. Configure a Scale Set to increase the virtual machine instance count when the CPU load is high.
+- D. Deploy the website to an App Service that uses the Standard service tier. Configure the App Service plan to automatically scale when the CPU load is high.
 
 <details>
   <summary>Correct answer:</summary>
@@ -190,10 +190,10 @@ D. Deploy the website to an App Service that uses the Standard service tier. Con
 
 ![Question 14](images/question14.png)
 
-A. Box 1: `group`. Box 2: `appservice plan`. Box 3: `webapp`. Box 4: `webapp deployment slot`. Box 5: `webapp deployment source`.
-B. Box 1: `appservice plan`. Box 2: `group`. Box 3: `webapp`. Box 4: `webapp deployment slot`. Box 5: `webapp deployment source`.
-C. Box 1: `webapp`. Box 2: `group`. Box 3: `webapp deployment source`. Box 4: `webapp deployment slot`. Box 5: `appservice plan`.
-D. Box 1: `webapp`. Box 2: `group`. Box 3: `webapp deployment source`. Box 4: `webapp deployment slot`. Box 5: `appservice plan`.
+- A. Box 1: `group`. Box 2: `appservice plan`. Box 3: `webapp`. Box 4: `webapp deployment slot`. Box 5: `webapp deployment source`.
+- B. Box 1: `appservice plan`. Box 2: `group`. Box 3: `webapp`. Box 4: `webapp deployment slot`. Box 5: `webapp deployment source`.
+- C. Box 1: `webapp`. Box 2: `group`. Box 3: `webapp deployment source`. Box 4: `webapp deployment slot`. Box 5: `appservice plan`.
+- D. Box 1: `webapp`. Box 2: `group`. Box 3: `webapp deployment source`. Box 4: `webapp deployment slot`. Box 5: `appservice plan`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -206,10 +206,10 @@ D. Box 1: `webapp`. Box 2: `group`. Box 3: `webapp deployment source`. Box 4: `w
 
 ![Question 15](images/question15.jpeg)
 
-A. Box 1: `__value();`. Box 2: `if (request.getValue('tip') === null) {`. Box 3: `__.upsertDocument(i);`.
-B. Box 1: `__readDocument()('item');`. Box 2: `if (!('tip' in i)) {`. Box 3: `__.replaceDocument(i);`.
-C. Box 1: `getContext().getRequest();`. Box 2: `if (!('tip' in i)) {`. Box 3: `r.setBody(i);`.
-D. Box 1: `getContext().getRequest();`. Box 2: `if (isNaN(i)['tip'] || i['tip'] === null) {`. Box 3: `r.setValue(i);`.
+- A. Box 1: `__value();`. Box 2: `if (request.getValue('tip') === null) {`. Box 3: `__.upsertDocument(i);`.
+- B. Box 1: `__readDocument()('item');`. Box 2: `if (!('tip' in i)) {`. Box 3: `__.replaceDocument(i);`.
+- C. Box 1: `getContext().getRequest();`. Box 2: `if (!('tip' in i)) {`. Box 3: `r.setBody(i);`.
+- D. Box 1: `getContext().getRequest();`. Box 2: `if (isNaN(i)['tip'] || i['tip'] === null) {`. Box 3: `r.setValue(i);`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -220,8 +220,8 @@ D. Box 1: `getContext().getRequest();`. Box 2: `if (isNaN(i)['tip'] || i['tip'] 
 
 ### You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob. The app continues to time out after four minutes. The app must process the blob data. You need to ensure the app does not time out and processes the blob data. Solution: Use the Durable Function async pattern to process the blob data. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -232,8 +232,8 @@ B. No.
 
 ### You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob. The app continues to time out after four minutes. The app must process the blob data. You need to ensure the app does not time out and processes the blob data. Solution: Pass the HTTP trigger payload into an Azure Service Bus queue to be processed by a queue trigger function and return an immediate HTTP success response. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -244,8 +244,8 @@ B. No.
 
 ### You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob. The app continues to time out after four minutes. The app must process the blob data. You need to ensure the app does not time out and processes the blob data. Solution: Configure the app to use an App Service hosting plan and enable the Always On setting. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -256,8 +256,8 @@ B. No.
 
 ### You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2. When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute. You need to design the process that starts the photo processing. Solution: Move photo processing to an Azure Function triggered from the blob upload. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -268,10 +268,10 @@ B. No.
 
 ### You are developing an application that uses Azure Blob storage. The application must read the transaction logs of all the changes that occur to the blobs and the blob metadata in the storage account for auditing purposes. The changes must be in the order in which they occurred, include only create, update, delete, and copy operations and be retained for compliance reasons. You need to process the transaction logs asynchronously. What should you do?
 
-A. Process all Azure Blob storage events by using Azure Event Grid with a subscriber Azure Function app.
-B. Enable the change feed on the storage account and process all changes for available events.
-C. Process all Azure Storage Analytics logs for successful blob events.
-D. Use the Azure Monitor HTTP Data Collector API and scan the request body for successful blob events.
+- A. Process all Azure Blob storage events by using Azure Event Grid with a subscriber Azure Function app.
+- B. Enable the change feed on the storage account and process all changes for available events.
+- C. Process all Azure Storage Analytics logs for successful blob events.
+- D. Use the Azure Monitor HTTP Data Collector API and scan the request body for successful blob events.
 
 <details>
   <summary>Correct answer:</summary>
@@ -284,10 +284,10 @@ D. Use the Azure Monitor HTTP Data Collector API and scan the request body for s
 
 ![Question 21](images/question21.png)
 
-A. Box 1: `CMD ['dotnet', 'ContosoApp.dll']`. Box 2: `FROM microsoft/aspnetcore:latest`. Box 3: `RUN powershell ./setupScript.ps1`. Box 4: `WORKDIR /apps/ContosoApp`. Box 5: `COPY ./ .`.
-B. Box 1: `COPY ./ .`. Box 2: `RUN powershell ./setupScript.ps1`. Box 3: `FROM microsoft/aspnetcore:latest`. Box 4: `CMD ['dotnet', 'ContosoApp.dll']`. Box 5: `WORKDIR /apps/ContosoApp`.
-C. Box 1: `RUN powershell ./setupScript.ps1`. Box 2: `CMD ['dotnet', 'ContosoApp.dll']`. Box 3: `FROM microsoft/aspnetcore:latest`. Box 4: `WORKDIR /apps/ContosoApp`. Box 5: `COPY ./ .`.
-D. Box 1: `FROM microsoft/aspnetcore:latest`. Box 2: `WORKDIR /apps/ContosoApp`. Box 3: `COPY ./ .`. Box 4: `RUN powershell ./setupScript.ps1`. Box 5: `CMD ['dotnet', 'ContosoApp.dll']`.
+- A. Box 1: `CMD ['dotnet', 'ContosoApp.dll']`. Box 2: `FROM microsoft/aspnetcore:latest`. Box 3: `RUN powershell ./setupScript.ps1`. Box 4: `WORKDIR /apps/ContosoApp`. Box 5: `COPY ./ .`.
+- B. Box 1: `COPY ./ .`. Box 2: `RUN powershell ./setupScript.ps1`. Box 3: `FROM microsoft/aspnetcore:latest`. Box 4: `CMD ['dotnet', 'ContosoApp.dll']`. Box 5: `WORKDIR /apps/ContosoApp`.
+- C. Box 1: `RUN powershell ./setupScript.ps1`. Box 2: `CMD ['dotnet', 'ContosoApp.dll']`. Box 3: `FROM microsoft/aspnetcore:latest`. Box 4: `WORKDIR /apps/ContosoApp`. Box 5: `COPY ./ .`.
+- D. Box 1: `FROM microsoft/aspnetcore:latest`. Box 2: `WORKDIR /apps/ContosoApp`. Box 3: `COPY ./ .`. Box 4: `RUN powershell ./setupScript.ps1`. Box 5: `CMD ['dotnet', 'ContosoApp.dll']`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -298,11 +298,11 @@ D. Box 1: `FROM microsoft/aspnetcore:latest`. Box 2: `WORKDIR /apps/ContosoApp`.
 
 ### You are developing an Azure Function App that processes images that are uploaded to an Azure Blob container. Images must be processed as quickly as possible after they are uploaded, and the solution must minimize latency. You create code to process images when the Function App is triggered. You need to configure the Function App. What should you do?
 
-A. Use an App Service plan. Configure the Function App to use an Azure Blob Storage input trigger.
-B. Use a Consumption plan. Configure the Function App to use an Azure Blob Storage trigger.
-C. Use a Consumption plan. Configure the Function App to use a Timer trigger.
-D. Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.
-E. Use a Consumption plan. Configure the Function App to use an Azure Blob Storage input trigger.
+- A. Use an App Service plan. Configure the Function App to use an Azure Blob Storage input trigger.
+- B. Use a Consumption plan. Configure the Function App to use an Azure Blob Storage trigger.
+- C. Use a Consumption plan. Configure the Function App to use a Timer trigger.
+- D. Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.
+- E. Use a Consumption plan. Configure the Function App to use an Azure Blob Storage input trigger.
 
 <details>
   <summary>Correct answer:</summary>
@@ -315,10 +315,10 @@ E. Use a Consumption plan. Configure the Function App to use an Azure Blob Stora
 
 ![Question 23](images/question23.png)
 
-A. Box 1: `copyIndex`. Box 2: `copy`. Box 3: `dependsOn`.
-B. Box 1: `copy`. Box 2: `copyIndex`. Box 3: `dependsOn`.
-C. Box 1: `priority`. Box 2: `dependsOn`. Box 3: `copyIndex`.
-D. Box 1: `priority`. Box 2: `copyIndex`. Box 3: `dependsOn`.
+- A. Box 1: `copyIndex`. Box 2: `copy`. Box 3: `dependsOn`.
+- B. Box 1: `copy`. Box 2: `copyIndex`. Box 3: `dependsOn`.
+- C. Box 1: `priority`. Box 2: `dependsOn`. Box 3: `copyIndex`.
+- D. Box 1: `priority`. Box 2: `copyIndex`. Box 3: `dependsOn`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -331,8 +331,8 @@ D. Box 1: `priority`. Box 2: `copyIndex`. Box 3: `dependsOn`.
 
 ![Question 24](images/question24_25_26_27.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -345,8 +345,8 @@ B. No.
 
 ![Question 25](images/question24_25_26_27.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -359,8 +359,8 @@ B. No.
 
 ![Question 26](images/question24_25_26_27.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -373,8 +373,8 @@ B. No.
 
 ![Question 27](images/question24_25_26_27.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -387,10 +387,10 @@ B. No.
 
 ![Question 28](images/question28.png)
 
-A. Box 1: Strong. Box 2: Consistent Prefix. Box 3: Eventual.
-B. Box 1: Eventual. Box 2: Strong. Box 3: Bounded Staleness.
-C. Box 1: Consistent Prefix. Box 2: Bounded Staleness. Box 3: Eventual.
-D. Box 1: Strong. Box 2: Bounded Staleness. Box 3: Eventual.
+- A. Box 1: Strong. Box 2: Consistent Prefix. Box 3: Eventual.
+- B. Box 1: Eventual. Box 2: Strong. Box 3: Bounded Staleness.
+- C. Box 1: Consistent Prefix. Box 2: Bounded Staleness. Box 3: Eventual.
+- D. Box 1: Strong. Box 2: Bounded Staleness. Box 3: Eventual.
 
 <details>
   <summary>Correct answer:</summary>
@@ -403,10 +403,10 @@ D. Box 1: Strong. Box 2: Bounded Staleness. Box 3: Eventual.
 
 ![Question 29](images/question29.png)
 
-A. Generalize the VM: Visual Studio command prompt. Store images: Azure Data Lake Storage.
-B. Generalize the VM: Azure PowerShell. Store images: Azure Blob Storage.
-C. Generalize the VM: Visual Studio command prompt. Store images: Azure File Storage.
-D. Generalize the VM: Azure PowerShell. Store images: Azure File Storage.
+- A. Generalize the VM: Visual Studio command prompt. Store images: Azure Data Lake Storage.
+- B. Generalize the VM: Azure PowerShell. Store images: Azure Blob Storage.
+- C. Generalize the VM: Visual Studio command prompt. Store images: Azure File Storage.
+- D. Generalize the VM: Azure PowerShell. Store images: Azure File Storage.
 
 <details>
   <summary>Correct answer:</summary>
@@ -417,10 +417,10 @@ D. Generalize the VM: Azure PowerShell. Store images: Azure File Storage.
 
 ### You are preparing to deploy a website to an Azure Web App from a GitHub repository. The website includes static content generated by a script. You plan to use the Azure Web App continuous deployment feature. You need to run the static generation script before the website starts serving traffic. What are two possible ways to achieve this goal?
 
-A. Add the path to the static content generation tool to `WEBSITE_RUN_FROM_PACKAGE` setting in the `host.json` file.
-B. Add a `PreBuild` target in the websites `csproj` project file that runs the static content generation script.
-C. Create a file named `run.cmd` in the folder `/run` that calls a script which generates the static content and deploys the website.
-D. Create a file named `.deployment` in the root of the repository that calls a script which generates the static content and deploys the website.
+- A. Add the path to the static content generation tool to `WEBSITE_RUN_FROM_PACKAGE` setting in the `host.json` file.
+- B. Add a `PreBuild` target in the websites `csproj` project file that runs the static content generation script.
+- C. Create a file named `run.cmd` in the folder `/run` that calls a script which generates the static content and deploys the website.
+- D. Create a file named `.deployment` in the root of the repository that calls a script which generates the static content and deploys the website.
 
 <details>
   <summary>Correct answer:</summary>
@@ -433,10 +433,10 @@ D. Create a file named `.deployment` in the root of the repository that calls a 
 
 ![Question 31](images/question31.jpeg)
 
-A. Box 1: Create a new template deployment. Box 2: Export a Resource Manager template. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Use `AZCopy` to copy the data to the new storage account.
-B. Box 1: Use `AZCopy` to copy the data to the new storage account. Box 2: Create a new template deployment. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Export a Resource Manager template.
-C. Box 1: Export a Resource Manager template. Box 2: Create a new template deployment. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Use `AZCopy` to copy the data to the new storage account.
-D. Box 1: Use `AZCopy` to copy the data to the new storage account. Box 2: Create a new template deployment. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Export a Resource Manager template.
+- A. Box 1: Create a new template deployment. Box 2: Export a Resource Manager template. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Use `AZCopy` to copy the data to the new storage account.
+- B. Box 1: Use `AZCopy` to copy the data to the new storage account. Box 2: Create a new template deployment. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Export a Resource Manager template.
+- C. Box 1: Export a Resource Manager template. Box 2: Create a new template deployment. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Use `AZCopy` to copy the data to the new storage account.
+- D. Box 1: Use `AZCopy` to copy the data to the new storage account. Box 2: Create a new template deployment. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Export a Resource Manager template.
 
 <details>
   <summary>Correct answer:</summary>
@@ -449,10 +449,10 @@ D. Box 1: Use `AZCopy` to copy the data to the new storage account. Box 2: Creat
 
 ![Question 32](images/question32.jpeg)
 
-A. Firewall configuration: Run Command. Supporting services script: Hybrid Runbook Worker.
-B. Firewall configuration: Custom Script Extension. Supporting services script: Serial console.
-C. Firewall configuration: Run Command. Supporting services script: Custom Script Extension.
-D. Firewall configuration: Hybrid Runbook Worker. Supporting services script: Custom Script Extension.
+- A. Firewall configuration: Run Command. Supporting services script: Hybrid Runbook Worker.
+- B. Firewall configuration: Custom Script Extension. Supporting services script: Serial console.
+- C. Firewall configuration: Run Command. Supporting services script: Custom Script Extension.
+- D. Firewall configuration: Hybrid Runbook Worker. Supporting services script: Custom Script Extension.
 
 <details>
   <summary>Correct answer:</summary>
@@ -465,10 +465,10 @@ D. Firewall configuration: Hybrid Runbook Worker. Supporting services script: Cu
 
 ![Question 33](images/question33.jpeg)
 
-A. Box 1: `New-AzWebAppSlot`. Box 2: `New-AzWebApp`. Box 3: `New-AzAppServicePlan`. Box 4: `New-AzResourceGroup`.
-B. Box 1: `New-AzResourceGroup`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWebApp`. Box 4: `New-AzWebAppSlot`.
-C. Box 1: `New-AzWebAppSlot`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWebApp`. Box 4: `New-AzResourceGroup`.
-D. Box 1: `New-AzResourceGroup`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWebAppSlot`. Box 4: `New-AzWebApp`.
+- A. Box 1: `New-AzWebAppSlot`. Box 2: `New-AzWebApp`. Box 3: `New-AzAppServicePlan`. Box 4: `New-AzResourceGroup`.
+- B. Box 1: `New-AzResourceGroup`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWebApp`. Box 4: `New-AzWebAppSlot`.
+- C. Box 1: `New-AzWebAppSlot`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWebApp`. Box 4: `New-AzResourceGroup`.
+- D. Box 1: `New-AzResourceGroup`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWebAppSlot`. Box 4: `New-AzWebApp`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -481,10 +481,10 @@ D. Box 1: `New-AzResourceGroup`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWe
 
 ![Question 34](images/question34.jpeg)
 
-A. Box 1: `-AssignIdentity:`. Box 2: `$SystemAssigned`.
-B. Box 1: `-AssignIdentity:`. Box 2: `$UserAssigned`.
-C. Box 1: `-IdentityId:` (note: screenshot has mistake, it should be `-IdentityType:` in the dropdown). Box 2: `$SystemAssigned`.
-D. Box 1: `-IdentityId:` (note: screenshot has mistake, it should be `-IdentityType:` in the dropdown). Box 2: `$UserAssigned`.
+- A. Box 1: `-AssignIdentity:`. Box 2: `$SystemAssigned`.
+- B. Box 1: `-AssignIdentity:`. Box 2: `$UserAssigned`.
+- C. Box 1: `-IdentityId:` (note: screenshot has mistake, it should be `-IdentityType:` in the dropdown). Box 2: `$SystemAssigned`.
+- D. Box 1: `-IdentityId:` (note: screenshot has mistake, it should be `-IdentityType:` in the dropdown). Box 2: `$UserAssigned`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -495,8 +495,8 @@ D. Box 1: `-IdentityId:` (note: screenshot has mistake, it should be `-IdentityT
 
 ### You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2. When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute. You need to design the process that starts the photo processing. Solution: Create an Azure Function app that uses the Consumption hosting model and that is triggered from the blob upload. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -507,8 +507,8 @@ B. No.
 
 ### You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named `Development`. You create additional deployment slots named `Testing` and `Production`. You enable auto swap on the `Production` deployment slot. You need to ensure that scripts run and resources are available before a swap operation occurs. Solution: Update the app with a method named `statuscheck` to run the scripts. Update the app settings for the app. Set the `WEBSITE_SWAP_WARMUP_PING_PATH` and `WEBSITE_SWAP_WARMUP_PING_STATUSES` with a path to the new method and appropriate response codes. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -521,8 +521,8 @@ B. No.
 
 ![Question 37](images/question37_38_39.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -535,8 +535,8 @@ B. No.
 
 ![Question 38](images/question37_38_39.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -549,8 +549,8 @@ B. No.
 
 ![Question 39](images/question37_38_39.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -563,10 +563,10 @@ B. No.
 
 ![Question 40](images/question40.png)
 
-A. Enable developers to write the functions by using the Rust language: Hosting plan. Declaratively connect to an Azure Blog Storage account: Custom handler.
-B. Enable developers to write the functions by using the Rust language: Runtime. Declaratively connect to an Azure Blog Storage account: Policy.
-C. Enable developers to write the functions by using the Rust language: Custom handler. Declaratively connect to an Azure Blog Storage account: Trigger.
-D. Enable developers to write the functions by using the Rust language: Custom handler. Declaratively connect to an Azure Blog Storage account: Extension bundle.
+- A. Enable developers to write the functions by using the Rust language: Hosting plan. Declaratively connect to an Azure Blog Storage account: Custom handler.
+- B. Enable developers to write the functions by using the Rust language: Runtime. Declaratively connect to an Azure Blog Storage account: Policy.
+- C. Enable developers to write the functions by using the Rust language: Custom handler. Declaratively connect to an Azure Blog Storage account: Trigger.
+- D. Enable developers to write the functions by using the Rust language: Custom handler. Declaratively connect to an Azure Blog Storage account: Extension bundle.
 
 <details>
   <summary>Correct answer:</summary>
@@ -580,10 +580,10 @@ D. Enable developers to write the functions by using the Rust language: Custom h
 ![Question 41 part 1](images/question41_1.jpeg)
 ![Question 41 part 2](images/question41_2.jpeg)
 
-A. App setting: `WEBSITES_ENABLE_APP_SERVICE_STORAGE`. Value: `/home`.
-B. App setting: `WEBSITES_ENABLE_APP_SERVICE_STORAGE`. Value: `/local`.
-C. App setting: `LOCALAPPDATA`. Value: `D:\home`.
-D. App setting: `DOTNET_HOSTING_OPTIMIZATION_CACHE`. Value: `D:\home`.
+- A. App setting: `WEBSITES_ENABLE_APP_SERVICE_STORAGE`. Value: `/home`.
+- B. App setting: `WEBSITES_ENABLE_APP_SERVICE_STORAGE`. Value: `/local`.
+- C. App setting: `LOCALAPPDATA`. Value: `D:\home`.
+- D. App setting: `DOTNET_HOSTING_OPTIMIZATION_CACHE`. Value: `D:\home`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -594,10 +594,10 @@ D. App setting: `DOTNET_HOSTING_OPTIMIZATION_CACHE`. Value: `D:\home`.
 
 ### You are developing a web app that is protected by Azure Web Application Firewall (WAF). All traffic to the web app is routed through an Azure Application Gateway instance that is used by multiple web apps. The web app address is `contoso.azurewebsites.net`. All traffic must be secured with SSL. The Azure Application Gateway instance is used by multiple web apps. You need to configure the Azure Application Gateway for the web app. Which two actions should you perform?
 
-A. In the Azure Application Gateway's HTTP setting, enable the Use for App service setting.
-B. Convert the web app to run in an Azure App service environment (ASE).
-C. Add an authentication certificate for `contoso.azurewebsites.net` to the Azure Application Gateway.
-D. In the Azure Application Gateway's HTTP setting, set the value of the `Override` backend path option to `contoso22.azurewebsites.net`.
+- A. In the Azure Application Gateway's HTTP setting, enable the Use for App service setting.
+- B. Convert the web app to run in an Azure App service environment (ASE).
+- C. Add an authentication certificate for `contoso.azurewebsites.net` to the Azure Application Gateway.
+- D. In the Azure Application Gateway's HTTP setting, set the value of the `Override` backend path option to `contoso22.azurewebsites.net`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -608,8 +608,8 @@ D. In the Azure Application Gateway's HTTP setting, set the value of the `Overri
 
 ### You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2. When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute. You need to design the process that starts the photo processing. Solution: Use the Azure Blob Storage change feed to trigger photo processing. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -624,8 +624,8 @@ B. No.
 ![Question 44 part 2](images/question44_45_46_47_2.png)
 ![Question 44 part 3](images/question44_45_46_47_3.jpeg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -640,8 +640,8 @@ B. No.
 ![Question 45 part 2](images/question44_45_46_47_2.png)
 ![Question 45 part 3](images/question44_45_46_47_3.jpeg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -656,8 +656,8 @@ B. No.
 ![Question 46 part 2](images/question44_45_46_47_2.png)
 ![Question 46 part 3](images/question44_45_46_47_3.jpeg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -672,8 +672,8 @@ B. No.
 ![Question 47 part 2](images/question44_45_46_47_2.png)
 ![Question 47 part 3](images/question44_45_46_47_3.jpeg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -686,8 +686,8 @@ B. No.
 
 ![Question 48](images/question48_49_50.jpeg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -700,8 +700,8 @@ B. No.
 
 ![Question 49](images/question48_49_50.jpeg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -714,8 +714,8 @@ B. No.
 
 ![Question 50](images/question48_49_50.jpeg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -726,10 +726,10 @@ B. No.
 
 ### You are building a website that uses Azure Blob storage for data storage. You configure Azure Blob storage lifecycle to move all blobs to the archive tier after 30 days. Customers have requested a service-level agreement (SLA) for viewing data older than 30 days. You need to document the minimum SLA for data recovery. Which SLA should you use?
 
-A. At least two days.
-B. Between one and 15 hours.
-C. At least one day.
-D. Between zero and 60 minutes.
+- A. At least two days.
+- B. Between one and 15 hours.
+- C. At least one day.
+- D. Between zero and 60 minutes.
 
 <details>
   <summary>Correct answer:</summary>
@@ -742,10 +742,10 @@ D. Between zero and 60 minutes.
 
 ![Question 52](images/question52.jpeg)
 
-A. Box 1: `BoundedStaleness`. Box 2: `--enable-automatic-failover true \`. Box 3: `--locations 'southcentralplus=0 eastus=1 westus=2'`.
-B. Box 1: `Strong`. Box 2: `--enable-automatic-failover true \`. Box 3: `--locations 'southcentralplus=0 eastus=1 westus=2'`.
-C. Box 1: `BoundedStaleness`. Box 2: `--enable-automatic-failover true \`. Box 3: `--locations 'southcentralus'`.
-D. Box 1: `Strong`. Box 2: `--kind 'MongoDB' \`. Box 3: `--locations 'southcentralus'`.
+- A. Box 1: `BoundedStaleness`. Box 2: `--enable-automatic-failover true \`. Box 3: `--locations 'southcentralplus=0 eastus=1 westus=2'`.
+- B. Box 1: `Strong`. Box 2: `--enable-automatic-failover true \`. Box 3: `--locations 'southcentralplus=0 eastus=1 westus=2'`.
+- C. Box 1: `BoundedStaleness`. Box 2: `--enable-automatic-failover true \`. Box 3: `--locations 'southcentralus'`.
+- D. Box 1: `Strong`. Box 2: `--kind 'MongoDB' \`. Box 3: `--locations 'southcentralus'`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -760,10 +760,10 @@ D. Box 1: `Strong`. Box 2: `--kind 'MongoDB' \`. Box 3: `--locations 'southcentr
 ![Question 53 part 2](images/question53_2.png)
 ![Question 53 part 3](images/question53_3.jpeg)
 
-A. Box 1: `--sku B1 --hyper-v`. Box 2: `--deployment-source-url images.azurecr.io/website:1.0.0`. Box 3: `container set --docker-registry-server-url https://images.azurecr.io -u admin -p admin`.
-B. Box 1: `--sku B1 --is-linux`. Box 2: `--deployment-container-image-name images.azurecr.io/website:v1.0.0`. Box 3: `container set --docker-registry-server-url https://images.azurecr.io -u admin -p admin`.
-C. Box 1: `--tags container`. Box 2: `--deployment-source-url images.azurecr.io/website:latest`. Box 3: `set --python-version 2.7 --generic-configurations user=admin password=admin`.
-D. Box 1: `--sku SHARED`. Box 2: `--deployment-container-image-name images.azurecr.io/website:latest`. Box 3: `set --python-version 3.6 --generic-configurations user=admin password=admin`.
+- A. Box 1: `--sku B1 --hyper-v`. Box 2: `--deployment-source-url images.azurecr.io/website:1.0.0`. Box 3: `container set --docker-registry-server-url https://images.azurecr.io -u admin -p admin`.
+- B. Box 1: `--sku B1 --is-linux`. Box 2: `--deployment-container-image-name images.azurecr.io/website:v1.0.0`. Box 3: `container set --docker-registry-server-url https://images.azurecr.io -u admin -p admin`.
+- C. Box 1: `--tags container`. Box 2: `--deployment-source-url images.azurecr.io/website:latest`. Box 3: `set --python-version 2.7 --generic-configurations user=admin password=admin`.
+- D. Box 1: `--sku SHARED`. Box 2: `--deployment-container-image-name images.azurecr.io/website:latest`. Box 3: `set --python-version 3.6 --generic-configurations user=admin password=admin`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -776,10 +776,10 @@ D. Box 1: `--sku SHARED`. Box 2: `--deployment-container-image-name images.azure
 
 ![Question 54](images/question54.jpeg)
 
-A. Metric source: Service Bus queue. Metric name: Active Message Count. Time train statistic: Average. Operator: Less than or equal to. Operation: Decrease count by.
-B. Metric source: Service Bus queue. Metric name: Active Message Count. Time train statistic: Count. Operator: Less than or equal to. Operation: Decrease count by.
-C. Metric source: Storage queue. Metric name: Active Message Count. Time train statistic: Count. Operator: Less than. Operation: Decrease count to.
-D. Metric source: Service Bus queue. Metric name: Message Count. Time train statistic: Average. Operator: Greater than. Operation: Decrease count to.
+- A. Metric source: Service Bus queue. Metric name: Active Message Count. Time train statistic: Average. Operator: Less than or equal to. Operation: Decrease count by.
+- B. Metric source: Service Bus queue. Metric name: Active Message Count. Time train statistic: Count. Operator: Less than or equal to. Operation: Decrease count by.
+- C. Metric source: Storage queue. Metric name: Active Message Count. Time train statistic: Count. Operator: Less than. Operation: Decrease count to.
+- D. Metric source: Service Bus queue. Metric name: Message Count. Time train statistic: Average. Operator: Greater than. Operation: Decrease count to.
 
 <details>
   <summary>Correct answer:</summary>
@@ -792,10 +792,10 @@ D. Metric source: Service Bus queue. Metric name: Message Count. Time train stat
 
 ![Question 55](images/question55.jpeg)
 
-A. Box 1: `Metadata.Add`. Box 2: `SetMetadataAsync`. Box 3: `SetPropertiesAsync`.
-B. Box 1: `Metadata.Add`. Box 2: `SetMetadataAsync`. Box 3: `UploadFileStream`.
-C. Box 1: `Metadata.Add`. Box 2: `FetchAttributesAsync`. Box 3: `SetPropertiesAsync`.
-D. Box 1: `FetchAttributesAsync`. Box 2: `Metadata.Add`. Box 3: `SetMetadataAsync`.
+- A. Box 1: `Metadata.Add`. Box 2: `SetMetadataAsync`. Box 3: `SetPropertiesAsync`.
+- B. Box 1: `Metadata.Add`. Box 2: `SetMetadataAsync`. Box 3: `UploadFileStream`.
+- C. Box 1: `Metadata.Add`. Box 2: `FetchAttributesAsync`. Box 3: `SetPropertiesAsync`.
+- D. Box 1: `FetchAttributesAsync`. Box 2: `Metadata.Add`. Box 3: `SetMetadataAsync`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -806,8 +806,8 @@ D. Box 1: `FetchAttributesAsync`. Box 2: `Metadata.Add`. Box 3: `SetMetadataAsyn
 
 ### You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data. You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future. You need to implement a solution to receive the device data. Solution: Provision an Azure Event Grid. Configure the machine identifier as the partition key and enable capture. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -818,10 +818,10 @@ B. No.
 
 ### You develop Azure solutions. A .NET application needs to receive a message each time an Azure virtual machine finishes processing data. The messages must NOT persist after being processed by the receiving application. You need to implement the .NET object that will receive the messages. Which object should you use?
 
-A. `QueueClient`.
-B. `SubscriptionClient`.
-C. `TopicClient`.
-D. `CloudQueueClient`.
+- A. `QueueClient`.
+- B. `SubscriptionClient`.
+- C. `TopicClient`.
+- D. `CloudQueueClient`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -834,10 +834,10 @@ D. `CloudQueueClient`.
 
 ![Question 58](images/question58.jpeg)
 
-A. Box 1: Upgrade the storage account to GPv2. Box 2: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account. Box 3: Change the storage account access tier from hot to cool.
-B. Box 1: Upgrade the storage account to GPv2. Box 2: Create a new GPv2 Standard account and set its default access tier level to cool. Box 3: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account.
-C. Box 1: Upgrade the storage account to GPv2. Box 2: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account. Box 3: Create a new GPv2 Standard account and set its default access tier level to cool.
-D. Box 1: Create a new GPv2 Standard account and set its default access tier level to cool. Box 2: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account. Box 3: Upgrade the storage account to GPv2.
+- A. Box 1: Upgrade the storage account to GPv2. Box 2: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account. Box 3: Change the storage account access tier from hot to cool.
+- B. Box 1: Upgrade the storage account to GPv2. Box 2: Create a new GPv2 Standard account and set its default access tier level to cool. Box 3: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account.
+- C. Box 1: Upgrade the storage account to GPv2. Box 2: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account. Box 3: Create a new GPv2 Standard account and set its default access tier level to cool.
+- D. Box 1: Create a new GPv2 Standard account and set its default access tier level to cool. Box 2: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account. Box 3: Upgrade the storage account to GPv2.
 
 <details>
   <summary>Correct answer:</summary>
@@ -848,9 +848,9 @@ D. Box 1: Create a new GPv2 Standard account and set its default access tier lev
 
 ### You develop Azure solutions. You must connect to a No-SQL globally-distributed database by using the .NET API. You need to create an object to configure and execute requests in the database. Which code segment should you use?
 
-A. `new Container(EndpointUri, PrimaryKey);`.
-B. `new Database(EndpointUri, PrimaryKey);`.
-C. `new CosmosClient(EndpointUri, PrimaryKey);`.
+- A. `new Container(EndpointUri, PrimaryKey);`.
+- B. `new Database(EndpointUri, PrimaryKey);`.
+- C. `new CosmosClient(EndpointUri, PrimaryKey);`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -861,10 +861,10 @@ C. `new CosmosClient(EndpointUri, PrimaryKey);`.
 
 ### You have an existing Azure storage account that stores large volumes of data across multiple containers. You need to copy all data from the existing storage account to a new storage account. The copy process must meet the following requirements: Automate data movement. Minimize user input required to perform the operation. Ensure that the data movement process is recoverable. What should you use?
 
-A. `AzCopy`.
-B. Azure Storage Explorer.
-C. Azure portal.
-D. .NET Storage Client Library.
+- A. `AzCopy`.
+- B. Azure Storage Explorer.
+- C. Azure portal.
+- D. .NET Storage Client Library.
 
 <details>
   <summary>Correct answer:</summary>
@@ -877,10 +877,10 @@ D. .NET Storage Client Library.
 
 ![Question 61](images/question61.jpg)
 
-A. Code segment 1: `http://localhost::50342/oauth2/token`. Code segment 2: `new MultipartContent(payload);`.
-B. Code segment 1: `http://localhost/metadata/identity/oauth2/token`. Code segment 2: `JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);`.
-C. Code segment 1: `http://169.254.169.254:50432/metadata/identity/oauth2/token`. Code segment 2: `new NetworkCredential('Azure', payload);`.
-D. Code segment 1: `http://169.254.169.254:50432/metadata/identity/oauth2/token`. Code segment 2: `JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);`.
+- A. Code segment 1: `http://localhost::50342/oauth2/token`. Code segment 2: `new MultipartContent(payload);`.
+- B. Code segment 1: `http://localhost/metadata/identity/oauth2/token`. Code segment 2: `JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);`.
+- C. Code segment 1: `http://169.254.169.254:50432/metadata/identity/oauth2/token`. Code segment 2: `new NetworkCredential('Azure', payload);`.
+- D. Code segment 1: `http://169.254.169.254:50432/metadata/identity/oauth2/token`. Code segment 2: `JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -895,10 +895,10 @@ D. Code segment 1: `http://169.254.169.254:50432/metadata/identity/oauth2/token`
 ![Question 62 part 2](images/question62_2.png)
 ![Question 62 part 2](images/question62_3.png)
 
-A. Box 1: `orderBy`. Box 2: `compositeIndexes`.
-B. Box 1: `compositeIndexes`. Box 2: `descending`.
-C. Box 1: `compositeIndexes`. Box 2: `ascending`.
-D. Box 1: `ascending`. Box 2: `descending`.
+- A. Box 1: `orderBy`. Box 2: `compositeIndexes`.
+- B. Box 1: `compositeIndexes`. Box 2: `descending`.
+- C. Box 1: `compositeIndexes`. Box 2: `ascending`.
+- D. Box 1: `ascending`. Box 2: `descending`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -911,10 +911,10 @@ D. Box 1: `ascending`. Box 2: `descending`.
 
 ![Question 63](images/question63.png)
 
-A. Number of partitions: 6. Partition Key: Highway.
-B. Number of partitions: 12. Partition Key: VM name.
-C. Number of partitions: 12. Partition Key: Highway.
-D. Number of partitions: 6 Partition Key: Department.
+- A. Number of partitions: 6. Partition Key: Highway.
+- B. Number of partitions: 12. Partition Key: VM name.
+- C. Number of partitions: 12. Partition Key: Highway.
+- D. Number of partitions: 6 Partition Key: Department.
 
 <details>
   <summary>Correct answer:</summary>
@@ -927,10 +927,10 @@ D. Number of partitions: 6 Partition Key: Department.
 
 ![Question 64](images/question64.jpg)
 
-A. Deploy solution: `Draft`. View cluster and external addressing: `CoreDNS`. Implement a single, public IP endpoint that is routed to multiple microservices: `Vrtual Kubelet`.
-B. Deploy solution: `Helm`. View cluster and external addressing: `Brigade`. Implement a single, public IP endpoint that is routed to multiple microservices: `KubeCtl`.
-C. Deploy solution: `Helm`. View cluster and external addressing: `KubeCtl`. Implement a single, public IP endpoint that is routed to multiple microservices: `Ingress Controller`.
-D. Deploy solution: `Ingress Controller`. View cluster and external addressing: `Helm`. Implement a single, public IP endpoint that is routed to multiple microservices: `Brigade`.
+- A. Deploy solution: `Draft`. View cluster and external addressing: `CoreDNS`. Implement a single, public IP endpoint that is routed to multiple microservices: `Vrtual Kubelet`.
+- B. Deploy solution: `Helm`. View cluster and external addressing: `Brigade`. Implement a single, public IP endpoint that is routed to multiple microservices: `KubeCtl`.
+- C. Deploy solution: `Helm`. View cluster and external addressing: `KubeCtl`. Implement a single, public IP endpoint that is routed to multiple microservices: `Ingress Controller`.
+- D. Deploy solution: `Ingress Controller`. View cluster and external addressing: `Helm`. Implement a single, public IP endpoint that is routed to multiple microservices: `Brigade`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -945,10 +945,10 @@ D. Deploy solution: `Ingress Controller`. View cluster and external addressing: 
 ![Question 65 part 2](images/question65_2.png)
 ![Question 65 part 3](images/question65_3.png)
 
-A. Box 1: `SQLFilter`. Box 2: `CorrelationFilter`. Box 3: `SQLFilter`. Box 4: `SQLFilter`. Box 5: No Filter.
-B. Box 1: `CorrelationFilter`. Box 2: `SQLFilter`. Box 3: No Filter. Box 4: `CorrelationFilter`. Box 5: `SQLFilter`.
-C. Box 1: No Filter. Box 2: `CorrelationFilter`. Box 3: `SQLFilter`. Box 4: `SQLFilter`. Box 5: No Filter.
-D. Box 1: No Filter. Box 2: `SQLFilter`. Box 3: `SQLFilter`. Box 4: `CorrelationFilter`. Box 5: `CorrelationFilter`.
+- A. Box 1: `SQLFilter`. Box 2: `CorrelationFilter`. Box 3: `SQLFilter`. Box 4: `SQLFilter`. Box 5: No Filter.
+- B. Box 1: `CorrelationFilter`. Box 2: `SQLFilter`. Box 3: No Filter. Box 4: `CorrelationFilter`. Box 5: `SQLFilter`.
+- C. Box 1: No Filter. Box 2: `CorrelationFilter`. Box 3: `SQLFilter`. Box 4: `SQLFilter`. Box 5: No Filter.
+- D. Box 1: No Filter. Box 2: `SQLFilter`. Box 3: `SQLFilter`. Box 4: `CorrelationFilter`. Box 5: `CorrelationFilter`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -961,10 +961,10 @@ D. Box 1: No Filter. Box 2: `SQLFilter`. Box 3: `SQLFilter`. Box 4: `Correlation
 
 ![Question 66](images/question66.jpg)
 
-A. Box 1: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server. Box 2: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. Box 3: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. Box 4: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location.
-B. Box 1: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location. Box 2: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server. Box 3: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. Box 4: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired.
-C. Box 1: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. Box 2: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location. Box 3: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server. Box 4: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client.
-D. Box 1: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. Box 2: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location. Box 3: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. Box 4: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server.
+- A. Box 1: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server. Box 2: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. Box 3: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. Box 4: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location.
+- B. Box 1: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location. Box 2: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server. Box 3: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. Box 4: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired.
+- C. Box 1: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. Box 2: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location. Box 3: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server. Box 4: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client.
+- D. Box 1: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. Box 2: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location. Box 3: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. Box 4: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server.
 
 <details>
   <summary>Correct answer:</summary>
@@ -975,11 +975,11 @@ D. Box 1: The origin server returns the logo image to an edge server in the POP.
 
 ### You are developing an Azure Cosmos DB solution by using the Azure Cosmos DB SQL API. The data includes millions of documents. Each document may contain hundreds of properties. The properties of the documents do not contain distinct values for partitioning. Azure Cosmos DB must scale individual containers in the database to meet the performance needs of the application by spreading the workload evenly across all partitions over time. You need to select a partition key. Which two partition keys can you use?
 
-A. A single property value that does not appear frequently in the documents.
-B. A value containing the collection name.
-C. A single property value that appears frequently in the documents.
-D. A concatenation of multiple property values with a random suffix appended.
-E. A hash suffix appended to a property value.
+- A. A single property value that does not appear frequently in the documents.
+- B. A value containing the collection name.
+- C. A single property value that appears frequently in the documents.
+- D. A concatenation of multiple property values with a random suffix appended.
+- E. A hash suffix appended to a property value.
 
 <details>
   <summary>Correct answer:</summary>
@@ -992,8 +992,8 @@ E. A hash suffix appended to a property value.
 
 ![Question 68](images/question68_69_70.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1006,8 +1006,8 @@ B. No.
 
 ![Question 69](images/question68_69_70.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1020,8 +1020,8 @@ B. No.
 
 ![Question 70](images/question68_69_70.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1034,10 +1034,10 @@ B. No.
 
 ![Question 71](images/question71.png)
 
-A. Store the data from which the change feed is generated: Host. Coordinate processing of the change feed across multiple workers: Delegate. Use the change feed processor to listen for changes: Lease container. Handle each batch of changes: Monitored container.
-B. Store the data from which the change feed is generated: Lease container. Coordinate processing of the change feed across multiple workers: Host. Use the change feed processor to listen for changes: Delegate. Handle each batch of changes: Monitored container.
-C. Store the data from which the change feed is generated: Delegate. Coordinate processing of the change feed across multiple workers: Monitored container. Use the change feed processor to listen for changes: Lease container. Handle each batch of changes: Host.
-D. Store the data from which the change feed is generated: Monitored container. Coordinate processing of the change feed across multiple workers: Lease container. Use the change feed processor to listen for changes: Host. Handle each batch of changes: Delegate.
+- A. Store the data from which the change feed is generated: Host. Coordinate processing of the change feed across multiple workers: Delegate. Use the change feed processor to listen for changes: Lease container. Handle each batch of changes: Monitored container.
+- B. Store the data from which the change feed is generated: Lease container. Coordinate processing of the change feed across multiple workers: Host. Use the change feed processor to listen for changes: Delegate. Handle each batch of changes: Monitored container.
+- C. Store the data from which the change feed is generated: Delegate. Coordinate processing of the change feed across multiple workers: Monitored container. Use the change feed processor to listen for changes: Lease container. Handle each batch of changes: Host.
+- D. Store the data from which the change feed is generated: Monitored container. Coordinate processing of the change feed across multiple workers: Lease container. Use the change feed processor to listen for changes: Host. Handle each batch of changes: Delegate.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1050,10 +1050,10 @@ D. Store the data from which the change feed is generated: Monitored container. 
 
 ![Question 72](images/question72.jpg)
 
-A. Box 1: Select Manifest from the middle-tier service registration. Box 2: Add a Cryptographic key. Box 3: In App Registrations, select New registration.
-B. Box 1: In App Registrations, select New registration. Box 2: Select the Microsoft Entra ID instance (on picture still as Azure AD). Box 3: Select Manifest from the middle-tier service registration.
-C. Box 1: In App Registrations, select New registration. Box 2: Select the Microsoft Entra ID instance (on picture still as Azure AD). Box 3: Create a new application and provide the name, account type, and redirect URI.
-D. Box 1: In Enterprise Applications, select New application. Box 2: In App Registrations, select New registration. Box 3: Select the Microsoft Entra ID instance (on picture still as Azure AD).
+- A. Box 1: Select Manifest from the middle-tier service registration. Box 2: Add a Cryptographic key. Box 3: In App Registrations, select New registration.
+- B. Box 1: In App Registrations, select New registration. Box 2: Select the Microsoft Entra ID instance (on picture still as Azure AD). Box 3: Select Manifest from the middle-tier service registration.
+- C. Box 1: In App Registrations, select New registration. Box 2: Select the Microsoft Entra ID instance (on picture still as Azure AD). Box 3: Create a new application and provide the name, account type, and redirect URI.
+- D. Box 1: In Enterprise Applications, select New application. Box 2: In App Registrations, select New registration. Box 3: Select the Microsoft Entra ID instance (on picture still as Azure AD).
 
 <details>
   <summary>Correct answer:</summary>
@@ -1064,12 +1064,12 @@ D. Box 1: In Enterprise Applications, select New application. Box 2: In App Regi
 
 ### You have a new Azure subscription. You are developing an internal website for employees to view sensitive data. The website uses Microsoft Entra ID for authentication. You need to implement multifactor authentication for the website. Which two actions should you perform?
 
-A. Configure the website to use Microsoft Entra ID B2C.
-B. MFA Enabled by conditional access policy.
-C. In Microsoft Entra ID, create a new conditional access policy.
-D. Upgrade to Microsoft Entra ID Premium.
-E. In Microsoft Entra ID, enable application proxy.
-F. In Microsoft Entra ID conditional access, enable the baseline policy.
+- A. Configure the website to use Microsoft Entra ID B2C.
+- B. MFA Enabled by conditional access policy.
+- C. In Microsoft Entra ID, create a new conditional access policy.
+- D. Upgrade to Microsoft Entra ID Premium.
+- E. In Microsoft Entra ID, enable application proxy.
+- F. In Microsoft Entra ID conditional access, enable the baseline policy.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1080,10 +1080,10 @@ F. In Microsoft Entra ID conditional access, enable the baseline policy.
 
 ### You are developing a Java application that uses Cassandra to store key and value data. You plan to use a new Azure Cosmos DB resource and the Cassandra API in the application. You create an Microsoft Entra ID group named Cosmos DB Creators to enable provisioning of Azure Cosmos accounts, databases, and containers. The Microsoft Entra ID group must not be able to access the keys that are required to access the data. You need to restrict access to the Microsoft Entra ID group. Which role-based access control should you use?
 
-A. DocumentDB Accounts Contributor.
-B. Cosmos Backup Operator.
-C. Cosmos DB Operator.
-D. Cosmos DB Account Reader.
+- A. DocumentDB Accounts Contributor.
+- B. Cosmos Backup Operator.
+- C. Cosmos DB Operator.
+- D. Cosmos DB Account Reader.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1094,8 +1094,8 @@ D. Cosmos DB Account Reader.
 
 ### You are developing a website that will run as an Azure Web App. Users will authenticate by using their Microsoft Entra ID credentials. You plan to assign users one of the following permission levels for the website: `admin`, `normal`, and `reader`. A user's Microsoft Entra ID group membership must be used to determine the permission level. You need to configure authorization. Solution: Configure the Azure Web App for the website to allow only authenticated requests and require Microsoft Entra ID log on. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1106,8 +1106,8 @@ B. No.
 
 ### You are developing a website that will run as an Azure Web App. Users will authenticate by using their Microsoft Entra ID credentials. You plan to assign users one of the following permission levels for the website: `admin`, `normal`, and `reader`. A user's Microsoft Entra ID group membership must be used to determine the permission level. You need to configure authorization. Solution: Create a new Microsoft Entra ID application. In the application's manifest, set value of the `groupMembershipClaims` option to All. In the website, use the value of the groups claim from the JWT for the user to determine permissions. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1118,8 +1118,8 @@ B. No.
 
 ### You are developing a website that will run as an Azure Web App. Users will authenticate by using their Microsoft Entra ID credentials. You plan to assign users one of the following permission levels for the website: `admin`, `normal`, and `reader`. A user's Microsoft Entra ID group membership must be used to determine the permission level. You need to configure authorization. Solution: Create a new Microsoft Entra ID application. In the application's manifest, define application roles that match the required permission levels for the application. Assign the appropriate Microsoft Entra ID group to each role. In the website, use the value of the roles claim from the JWT for the user to determine permissions. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1132,10 +1132,10 @@ B. No.
 
 ![Question 78](images/question78.png)
 
-A. Enable retention period and accidental deletion: Soft delete. Enforce retention period and accidental deletion: Purge protection.
-B. Enable retention period and accidental deletion: Access policy. Enforce retention period and accidental deletion: Soft delete.
-C. Enable retention period and accidental deletion: Shared access signature. Enforce retention period and accidental deletion: Pure protection.
-D. Enable retention period and accidental deletion: Soft delete. Enforce retention period and accidental deletion: Shared access signature.
+- A. Enable retention period and accidental deletion: Soft delete. Enforce retention period and accidental deletion: Purge protection.
+- B. Enable retention period and accidental deletion: Access policy. Enforce retention period and accidental deletion: Soft delete.
+- C. Enable retention period and accidental deletion: Shared access signature. Enforce retention period and accidental deletion: Pure protection.
+- D. Enable retention period and accidental deletion: Soft delete. Enforce retention period and accidental deletion: Shared access signature.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1146,10 +1146,10 @@ D. Enable retention period and accidental deletion: Soft delete. Enforce retenti
 
 ### You provide an Azure API Management managed web service to clients. The back-end web service implements HTTP Strict Transport Security (HSTS). Every request to the backend service must include a valid HTTP authorization header. You need to configure the Azure API Management instance with an authentication policy. Which two policies can you use?
 
-A. Basic Authentication.
-B. Digest Authentication.
-C. Certificate Authentication.
-D. OAuth Client Credential Grant.
+- A. Basic Authentication.
+- B. Digest Authentication.
+- C. Certificate Authentication.
+- D. OAuth Client Credential Grant.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1162,10 +1162,10 @@ D. OAuth Client Credential Grant.
 
 ![Question 80](images/question80.png)
 
-A. Azure Storage Permission: `client_id`. Azure Storage Type: `application`. Microsoft Graph Type: `user_impersonation`.
-B. Azure Storage Permission: `client_id`. Azure Storage Type: `profile`. Microsoft Graph Type: `application`.
-C. Azure Storage Permission: `user_impersonation`. Azure Storage Type: `delegated`. Microsoft Graph Type: `delegated`.
-D. Azure Storage Permission: `user_impersonation`. Azure Storage Type: `delegated`. Microsoft Graph Type: `profile`.
+- A. Azure Storage Permission: `client_id`. Azure Storage Type: `application`. Microsoft Graph Type: `user_impersonation`.
+- B. Azure Storage Permission: `client_id`. Azure Storage Type: `profile`. Microsoft Graph Type: `application`.
+- C. Azure Storage Permission: `user_impersonation`. Azure Storage Type: `delegated`. Microsoft Graph Type: `delegated`.
+- D. Azure Storage Permission: `user_impersonation`. Azure Storage Type: `delegated`. Microsoft Graph Type: `profile`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1178,10 +1178,10 @@ D. Azure Storage Permission: `user_impersonation`. Azure Storage Type: `delegate
 
 ![Question 81](images/question81.png)
 
-A. Box 1: `UseSession`. Box 2: `UseCookiePolicy`. Box 3: `UseStaticFiles`.
-B. Box 1: `UseAuthentication`. Box 2: `UseAuthorization`. Box 3: `UseStaticFiles`.
-C. Box 1: `UseCookiePolicy`. Box 2: `UseHttpsRedirection`. Box 3: `UseCors`.
-D. Box 1: `UseAuthentication`. Box 2: `UseAuthorization`. Box 3: `UseAzureAppConfiguration`.
+- A. Box 1: `UseSession`. Box 2: `UseCookiePolicy`. Box 3: `UseStaticFiles`.
+- B. Box 1: `UseAuthentication`. Box 2: `UseAuthorization`. Box 3: `UseStaticFiles`.
+- C. Box 1: `UseCookiePolicy`. Box 2: `UseHttpsRedirection`. Box 3: `UseCors`.
+- D. Box 1: `UseAuthentication`. Box 2: `UseAuthorization`. Box 3: `UseAzureAppConfiguration`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1192,10 +1192,10 @@ D. Box 1: `UseAuthentication`. Box 2: `UseAuthorization`. Box 3: `UseAzureAppCon
 
 ### You have an application that includes an Azure Web app and several Azure Function apps. Application secrets including connection strings and certificates are stored in Azure Key Vault. Secrets must not be stored in the application or application runtime environment. Changes to Microsoft Entra ID must be minimized. You need to design the approach to loading application secrets. What should you do?
 
-A. Create a single user-assigned Managed Identity with permission to access Key Vault and configure each App Service to use that Managed Identity.
-B. Create a single Microsoft Entra ID Service Principal with permission to access Key Vault and use a client secret from within the App Services to access Key Vault.
-C. Create a system assigned Managed Identity in each App Service with permission to access Key Vault.
-D. Create an Microsoft Entra ID Service Principal with Permissions to access Key Vault for each App Service and use a certificate from within the App Services to access Key Vault.
+- A. Create a single user-assigned Managed Identity with permission to access Key Vault and configure each App Service to use that Managed Identity.
+- B. Create a single Microsoft Entra ID Service Principal with permission to access Key Vault and use a client secret from within the App Services to access Key Vault.
+- C. Create a system assigned Managed Identity in each App Service with permission to access Key Vault.
+- D. Create an Microsoft Entra ID Service Principal with Permissions to access Key Vault for each App Service and use a certificate from within the App Services to access Key Vault.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1206,8 +1206,8 @@ D. Create an Microsoft Entra ID Service Principal with Permissions to access Key
 
 ### You are developing a medical records document management website. The website is used to store scanned copies of patient intake forms. If the stored intake forms are downloaded from storage by a third party, the contents of the forms must not be compromised. You need to store the intake forms according to the requirements. Solution: 1. Create an Azure Key Vault key named `skey`. 2. Encrypt the intake forms using the public key portion of `skey`. 3. Store the encrypted data in Azure Blob storage. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1218,8 +1218,8 @@ B. No.
 
 ### You are developing a medical records document management website. The website is used to store scanned copies of patient intake forms. If the stored intake forms are downloaded from storage by a third party, the contents of the forms must not be compromised. You need to store the intake forms according to the requirements. Solution: 1. Create an Azure Cosmos DB database with Storage Service Encryption enabled. 2. Store the intake forms in the Azure Cosmos DB database. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1230,8 +1230,8 @@ B. No.
 
 ### You are developing a medical records document management website. The website is used to store scanned copies of patient intake forms. If the stored intake forms are downloaded from storage by a third party, the contents of the forms must not be compromised. You need to store the intake forms according to the requirements. Solution: Store the intake forms as Azure Key Vault secrets. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1244,10 +1244,10 @@ B. No.
 
 ![Question 86](images/question86.jpg)
 
-A. Box 1: `keyvault`. Box 2: `keyvault key`. Box 3: `vm`. Box 4: `vm encryption`. Box 5: `all`.
-B. Box 1: `vm`. Box 2: `vm encryption`. Box 3: `keyvault key`. Box 4: `keyvault`. Box 5: `data`.
-C. Box 1: `vm encryption`. Box 2: `vm`. Box 3: `keyvault`. Box 4: `keyvault key`. Box 5: `all`.
-D. Box 1: `keyvault key`. Box 2: `keyvault`. Box 3: `vm encryption`. Box 4: `vm`. Box 5: `os`.
+- A. Box 1: `keyvault`. Box 2: `keyvault key`. Box 3: `vm`. Box 4: `vm encryption`. Box 5: `all`.
+- B. Box 1: `vm`. Box 2: `vm encryption`. Box 3: `keyvault key`. Box 4: `keyvault`. Box 5: `data`.
+- C. Box 1: `vm encryption`. Box 2: `vm`. Box 3: `keyvault`. Box 4: `keyvault key`. Box 5: `all`.
+- D. Box 1: `keyvault key`. Box 2: `keyvault`. Box 3: `vm encryption`. Box 4: `vm`. Box 5: `os`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1258,10 +1258,10 @@ D. Box 1: `keyvault key`. Box 2: `keyvault`. Box 3: `vm encryption`. Box 4: `vm`
 
 ### Your company is developing an Azure API hosted in Azure. You need to implement authentication for the Azure API to access other Azure resources. You have the following requirements: All API calls must be authenticated. Callers to the API must not send credentials to the API. Which authentication mechanism should you use?
 
-A. Basic.
-B. Anonymous.
-C. Managed identity.
-D. Client certificate.
+- A. Basic.
+- B. Anonymous.
+- C. Managed identity.
+- D. Client certificate.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1272,8 +1272,8 @@ D. Client certificate.
 
 ### You are using Azure Front Door Service. You are expecting inbound files to be compressed by using Brotli compression. You discover that inbound XML files are not compressed. The files are 9 megabytes (MB) in size. You need to determine the root cause for the issue. Question 1: The file MIME type is supported by the service.
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1284,8 +1284,8 @@ B. No.
 
 ### You are using Azure Front Door Service. You are expecting inbound files to be compressed by using Brotli compression. You discover that inbound XML files are not compressed. The files are 9 megabytes (MB) in size. You need to determine the root cause for the issue. Question 2: Edge nodes must be purged of all cache assets.
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1296,8 +1296,8 @@ B. No.
 
 ### You are using Azure Front Door Service. You are expecting inbound files to be compressed by using Brotli compression. You discover that inbound XML files are not compressed. The files are 9 megabytes (MB) in size. You need to determine the root cause for the issue. Question 3: The compression type is supported.
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1310,10 +1310,10 @@ B. No.
 
 ![Question 91](images/question91.png)
 
-A. Box 1: `Get-AzSubscription`. Box 2: `Set-AzContext -SubscriptionId $subscriptionID`. Box 3: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 4: `Get-AzKeyVaultSecret -VaultName $vaultName`. Box 5: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`.
-B. Box 1: `Set-AzContext -SubscriptionId $subscriptionID`. Box 2: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 3: `Get-AzKeyVaultSecret -VaultName $vaultName`. Box 4: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`. Box 5: `Get-AzSubscription`.
-C. Box 1: `Get-AzSubscription`. Box 2: `Set-AzContext -SubscriptionId $subscriptionID`. Box 3: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 4: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`. Box 5: `Get-AzKeyVaultSecret -VaultName $vaultName`.
-D. Box 1: `Get-AzKeyVaultSecret -VaultName $vaultName`. Box 2: `Get-AzSubscription`. Box 3: `Set-AzContext -SubscriptionId $subscriptionID`. Box 4: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 5: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`.
+- A. Box 1: `Get-AzSubscription`. Box 2: `Set-AzContext -SubscriptionId $subscriptionID`. Box 3: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 4: `Get-AzKeyVaultSecret -VaultName $vaultName`. Box 5: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`.
+- B. Box 1: `Set-AzContext -SubscriptionId $subscriptionID`. Box 2: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 3: `Get-AzKeyVaultSecret -VaultName $vaultName`. Box 4: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`. Box 5: `Get-AzSubscription`.
+- C. Box 1: `Get-AzSubscription`. Box 2: `Set-AzContext -SubscriptionId $subscriptionID`. Box 3: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 4: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`. Box 5: `Get-AzKeyVaultSecret -VaultName $vaultName`.
+- D. Box 1: `Get-AzKeyVaultSecret -VaultName $vaultName`. Box 2: `Get-AzSubscription`. Box 3: `Set-AzContext -SubscriptionId $subscriptionID`. Box 4: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 5: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1324,8 +1324,8 @@ D. Box 1: `Get-AzKeyVaultSecret -VaultName $vaultName`. Box 2: `Get-AzSubscripti
 
 ### You develop Azure solutions. You must grant a virtual machine (VM) access to specific resource groups in Azure Resource Manager. You need to obtain an Azure Resource Manager access token. Solution: Use an `X.509` certificate to authenticate the VM with Azure Resource Manager. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1336,8 +1336,8 @@ B. No.
 
 ### You develop Azure solutions. You must grant a virtual machine (VM) access to specific resource groups in Azure Resource Manager. You need to obtain an Azure Resource Manager access token. Solution: Use the `Reader` role-based access control (RBAC) role to authenticate the VM with Azure Resource Manager. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1350,10 +1350,10 @@ B. No.
 
 ![Question 94](images/question94.png)
 
-A. Box 1: `iOS`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `HTTP_USER_AGENT`. Box 4: `DeliveryRuleRequestHeaderConditionParameters`. Box 5: `iOS`.
-B. Box 1: `Mobile`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `HTTP_USER_AGENT`. Box 4: `DeliveryRuleRequestHeaderConditionParameters`. Box 5: `iPhone`.
-C. Box 1: `Desktop`. Box 2: `DeliveryRuleCookiesConditionParameters`. Box 3: `PRAGMA`. Box 4: `DeliveryRulelsDeviceConditionParameters`. Box 5: `Desktop`.
-D. Box 1: `iOS`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `FROM`. Box 4: `DeliveryRulePostArgsConditionParameters`. Box 5: `Mobile`.
+- A. Box 1: `iOS`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `HTTP_USER_AGENT`. Box 4: `DeliveryRuleRequestHeaderConditionParameters`. Box 5: `iOS`.
+- B. Box 1: `Mobile`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `HTTP_USER_AGENT`. Box 4: `DeliveryRuleRequestHeaderConditionParameters`. Box 5: `iPhone`.
+- C. Box 1: `Desktop`. Box 2: `DeliveryRuleCookiesConditionParameters`. Box 3: `PRAGMA`. Box 4: `DeliveryRulelsDeviceConditionParameters`. Box 5: `Desktop`.
+- D. Box 1: `iOS`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `FROM`. Box 4: `DeliveryRulePostArgsConditionParameters`. Box 5: `Mobile`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1364,8 +1364,8 @@ D. Box 1: `iOS`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `FROM`
 
 ### You are developing a website that will run as an Azure Web App. Users will authenticate by using their Microsoft Entra ID credentials. You plan to assign users one of the following permission levels for the website: `admin`, `normal`, and `reader`. A user's Microsoft Entra ID group membership must be used to determine the permission level. You need to configure authorization. Solution: Configure and use Integrated Windows Authentication in the website. In the website, query Microsoft Graph API to load the group to which the user is a member. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1376,8 +1376,8 @@ B. No.
 
 ### You develop Azure solutions. You must grant a virtual machine (VM) access to specific resource groups in Azure Resource Manager. You need to obtain an Azure Resource Manager access token. Solution: Run the `Invoke-RestMethod` cmdlet to make a request to the local managed identity for Azure resources endpoint. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1388,10 +1388,10 @@ B. No.
 
 ### Your company's Azure subscription includes an Azure Log Analytics workspace. Your company has a hundred on-premises servers that run either Windows Server 2012 R2 or Windows Server 2016, and is linked to the Azure Log Analytics workspace. The Azure Log Analytics workspace is set up to gather performance counters associated with security from these linked servers. You must configure alerts based on the information gathered by the Azure Log Analytics workspace. You have to make sure that alert rules allow for dimensions, and that alert creation time should be kept to a minimum. Furthermore, a single alert notification must be created when the alert is created and when the alert is resolved. You need to make use of the necessary signal type when creating the alert rules. Which of the following is the option you should use?
 
-A. The Activity log signal type.
-B. The Application Log signal type.
-C. The Metric signal type.
-D. The Audit Log signal type.
+- A. The Activity log signal type.
+- B. The Application Log signal type.
+- C. The Metric signal type.
+- D. The Audit Log signal type.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1402,10 +1402,10 @@ D. The Audit Log signal type.
 
 ### You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers. You want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation. You want the application to allow customers to search the index by using regular expressions. What should you do?
 
-A. Configure the `SearchMode` property of the `SearchParameters` class.
-B. Configure the `QueryType` property of the `SearchParameters` class.
-C. Configure the `Facets` property of the `SearchParameters` class.
-D. Configure the `Filter` property of the `SearchParameters` class.
+- A. Configure the `SearchMode` property of the `SearchParameters` class.
+- B. Configure the `QueryType` property of the `SearchParameters` class.
+- C. Configure the `Facets` property of the `SearchParameters` class.
+- D. Configure the `Filter` property of the `SearchParameters` class.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1416,10 +1416,10 @@ D. Configure the `Filter` property of the `SearchParameters` class.
 
 ### You are a developer at your company. You need to update the definitions for an existing Logic App. What should you use?
 
-A. The Enterprise Integration Pack (EIP).
-B. The Logic App Code View.
-C. The API Connections.
-D. The Logic Apps Designer.
+- A. The Enterprise Integration Pack (EIP).
+- B. The Logic App Code View.
+- C. The API Connections.
+- D. The Logic Apps Designer.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1432,10 +1432,10 @@ D. The Logic Apps Designer.
 
 ![Question 100](images/question100.png)
 
-A. Box 1: `ago(1d)`. Box 2: `distinct ContainerID`. Box 3: `where ContainerID in (ContainerIDs)`. Box 4: `summarize count() by Computer`.
-B. Box 1: `date(now() - 1d)`. Box 2: `sample ContainerID`. Box 3: `where ContainerID in (ContainerIDs)`. Box 4: `partition count() by Computer`.
-C. Box 1: `ago(1d)`. Box 2: `distinct ContainerID`. Box 3: `join ContainerID = = ContainerIDs.ContainerID`. Box 4: `summarize by Computer`.
-D. Box 1: `totimespan(1d)`. Box 2: `top ContainerID`. Box 3: `fork containerIDs`. Box 4: `project by Computer`.
+- A. Box 1: `ago(1d)`. Box 2: `distinct ContainerID`. Box 3: `where ContainerID in (ContainerIDs)`. Box 4: `summarize count() by Computer`.
+- B. Box 1: `date(now() - 1d)`. Box 2: `sample ContainerID`. Box 3: `where ContainerID in (ContainerIDs)`. Box 4: `partition count() by Computer`.
+- C. Box 1: `ago(1d)`. Box 2: `distinct ContainerID`. Box 3: `join ContainerID = = ContainerIDs.ContainerID`. Box 4: `summarize by Computer`.
+- D. Box 1: `totimespan(1d)`. Box 2: `top ContainerID`. Box 3: `fork containerIDs`. Box 4: `project by Computer`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1448,10 +1448,10 @@ D. Box 1: `totimespan(1d)`. Box 2: `top ContainerID`. Box 3: `fork containerIDs`
 
 ![Question 101](images/question101.png)
 
-A. Box 1: `config`. Box 2: `--docker-container-logging`. Box 3: `webapp`. Box 4: `tail`.
-B. Box 1: `tail`. Box 2: `--web-server-logging`. Box 3: `aks` Box 4: `show`.
-C. Box 1: `show`. Box 2: `--web-server-logging`. Box 3: `acr`. Box 4: `config`.
-D. Box 1: `config`. Box 2: `--application-logging`. Box 3: `webapp`. Box 4: `show`.
+- A. Box 1: `config`. Box 2: `--docker-container-logging`. Box 3: `webapp`. Box 4: `tail`.
+- B. Box 1: `tail`. Box 2: `--web-server-logging`. Box 3: `aks` Box 4: `show`.
+- C. Box 1: `show`. Box 2: `--web-server-logging`. Box 3: `acr`. Box 4: `config`.
+- D. Box 1: `config`. Box 2: `--application-logging`. Box 3: `webapp`. Box 4: `show`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1462,10 +1462,10 @@ D. Box 1: `config`. Box 2: `--application-logging`. Box 3: `webapp`. Box 4: `sho
 
 ### You develop an app that allows users to upload photos and videos to Azure storage. The app uses a storage REST API call to upload the media to a blob storage account named `Account1`. You have blob storage containers named `Container1` and `Container2`. Uploading of videos occurs on an irregular basis. You need to copy specific blobs from `Container1` to `Container2` when a new video is uploaded. What should you do?
 
-A. Copy blobs to `Container2` by using the Put Blob operation of the Blob Service REST API.
-B. Create an Event Grid topic that uses the `Start-AzureStorageBlobCopy` cmdlet.
-C. Use `AzCopy` with the Snapshot switch to copy blobs to `Container2`.
-D. Download the blob to a virtual machine and then upload the blob to `Container2`.
+- A. Copy blobs to `Container2` by using the Put Blob operation of the Blob Service REST API.
+- B. Create an Event Grid topic that uses the `Start-AzureStorageBlobCopy` cmdlet.
+- C. Use `AzCopy` with the Snapshot switch to copy blobs to `Container2`.
+- D. Download the blob to a virtual machine and then upload the blob to `Container2`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1478,10 +1478,10 @@ D. Download the blob to a virtual machine and then upload the blob to `Container
 
 ![Question 103](images/question103.jpg)
 
-A. caching-type: `Internal`. downstream-caching-type: `Private`. vary-by-header: `Authorization`.
-B. caching-type: `Public`. downstream-caching-type: `Expect`. vary-by-header: `Private`.
-C. caching-type: `Internal`. downstream-caching-type: `External`. vary-by-header: `Authorization`.
-D. caching-type: `External`. downstream-caching-type: `Private`. vary-by-header: `Authorization`.
+- A. caching-type: `Internal`. downstream-caching-type: `Private`. vary-by-header: `Authorization`.
+- B. caching-type: `Public`. downstream-caching-type: `Expect`. vary-by-header: `Private`.
+- C. caching-type: `Internal`. downstream-caching-type: `External`. vary-by-header: `Authorization`.
+- D. caching-type: `External`. downstream-caching-type: `Private`. vary-by-header: `Authorization`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1492,9 +1492,9 @@ D. caching-type: `External`. downstream-caching-type: `Private`. vary-by-header:
 
 ### You are developing an ASP.NET Core website that uses Azure FrontDoor. The website is used to build custom weather data sets for researchers. Data sets are downloaded by users as Comma Separated Value (CSV) files. The data is refreshed every 10 hours. Specific files must be purged from the FrontDoor cache based upon Response Header values. You need to purge individual assets from the Front Door cache. Which type of cache purge should you use?
 
-A. `single path`.
-B. `wildcard`.
-C. `root domain`.
+- A. `single path`.
+- B. `wildcard`.
+- C. `root domain`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1507,10 +1507,10 @@ C. `root domain`.
 
 ![Question 105](images/question105.jpg)
 
-A. Set-variable: Inbound. Cache-lookup-value: Inbound. Cache-store-value: Outbound. Find-and-replace: Outbound.
-B. Set-variable: Outbound. Cache-lookup-value: Inbound. Cache-store-value: Outbound. Find-and-replace: Inbound.
-C. Set-variable: Inbound. Cache-lookup-value: Outbound. Cache-store-value: Inbound. Find-and-replace: Outbound.
-D. Set-variable: Outbound. Cache-lookup-value: Outbound. Cache-store-value: Inbound. Find-and-replace: Inbound.
+- A. Set-variable: Inbound. Cache-lookup-value: Inbound. Cache-store-value: Outbound. Find-and-replace: Outbound.
+- B. Set-variable: Outbound. Cache-lookup-value: Inbound. Cache-store-value: Outbound. Find-and-replace: Inbound.
+- C. Set-variable: Inbound. Cache-lookup-value: Outbound. Cache-store-value: Inbound. Find-and-replace: Outbound.
+- D. Set-variable: Outbound. Cache-lookup-value: Outbound. Cache-store-value: Inbound. Find-and-replace: Inbound.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1523,10 +1523,10 @@ D. Set-variable: Outbound. Cache-lookup-value: Outbound. Cache-store-value: Inbo
 
 ![Question 106](images/question106.jpg)
 
-A. Box 1: Register the application with the Microsoft identity platform. Box 2: Build a client by using the client app ID. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
-B. Box 1: Invoke the request to the Microsoft Graph API. Box 2: Create an authentication provider. Box 3: Register the application with the Microsoft identity platform. Box 4: Build a client by using the client app ID. Box 5: Create a new instance of the GraphServiceClient.
-C. Box 1: Build a client by using the client app ID. Box 2: Register the application with the Microsoft identity platform. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
-D. Box 1: Register the application with the Microsoft identity platform. Box 2: Build a client by using the client app ID. Box 3: Invoke the request to the Microsoft Graph API. Box 4: Create a new instance of the GraphServiceClient. Box 5: Create an authentication provider. Graph API.
+- A. Box 1: Register the application with the Microsoft identity platform. Box 2: Build a client by using the client app ID. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
+- B. Box 1: Invoke the request to the Microsoft Graph API. Box 2: Create an authentication provider. Box 3: Register the application with the Microsoft identity platform. Box 4: Build a client by using the client app ID. Box 5: Create a new instance of the GraphServiceClient.
+- C. Box 1: Build a client by using the client app ID. Box 2: Register the application with the Microsoft identity platform. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
+- D. Box 1: Register the application with the Microsoft identity platform. Box 2: Build a client by using the client app ID. Box 3: Invoke the request to the Microsoft Graph API. Box 4: Create a new instance of the GraphServiceClient. Box 5: Create an authentication provider. Graph API.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1539,10 +1539,10 @@ D. Box 1: Register the application with the Microsoft identity platform. Box 2: 
 
 ![Question 107](images/question107.png)
 
-A. Box 1: Create a Log Analytics workspace. Box 2: Install the Logic Apps Management solution. Box 3: Add a diagnostic setting to the Azure Logic App.
-B. Box 1: Install the Logic Apps Management solution. Box 2: Add a diagnostic setting to the Azure Function App. Box 3: Create action groups and alert rules.
-C. Box 1: Add a diagnostic setting to the Azure Function App. Box 2: Create a Log Analytics workspace. Box 3: Create action groups and alert rules.
-D. Box 1: Create a Log Analytics workspace. Box 2: Create action groups and alert rules. Box 3: Add a diagnostic setting to the Azure Function App.
+- A. Box 1: Create a Log Analytics workspace. Box 2: Install the Logic Apps Management solution. Box 3: Add a diagnostic setting to the Azure Logic App.
+- B. Box 1: Install the Logic Apps Management solution. Box 2: Add a diagnostic setting to the Azure Function App. Box 3: Create action groups and alert rules.
+- C. Box 1: Add a diagnostic setting to the Azure Function App. Box 2: Create a Log Analytics workspace. Box 3: Create action groups and alert rules.
+- D. Box 1: Create a Log Analytics workspace. Box 2: Create action groups and alert rules. Box 3: Add a diagnostic setting to the Azure Function App.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1555,10 +1555,10 @@ D. Box 1: Create a Log Analytics workspace. Box 2: Create action groups and aler
 
 ![Question 108](images/question108.png)
 
-A. Box 1: Create a Log Analytics workspace. Box 2: Add a VMInsights solution. Box 3: Install agents on the VM and VM scale set to be monitored. Box 4: Create an Application Insights resource.
-B. Box 1: Add a VMInsights solution. Box 2: Create a Log Analytics workspace. Box 3: AInstall agents on the VM and VM scale set to be monitored. Box 4: Create an Application Insights resource.
-C. Box 1: Create an Application Insights resource. Box 2: Add a VMInsights solution. Box 3: AInstall agents on the VM and VM scale set to be monitored. Box 4: Create a Log Analytics workspace.
-D. Box 1: Create a Log Analytics workspace. Box 2: Add a VMInsights solution. Box 3: Create an Application Insights resource. Box 4: Install agents on the VM and VM scale set to be monitored.
+- A. Box 1: Create a Log Analytics workspace. Box 2: Add a VMInsights solution. Box 3: Install agents on the VM and VM scale set to be monitored. Box 4: Create an Application Insights resource.
+- B. Box 1: Add a VMInsights solution. Box 2: Create a Log Analytics workspace. Box 3: AInstall agents on the VM and VM scale set to be monitored. Box 4: Create an Application Insights resource.
+- C. Box 1: Create an Application Insights resource. Box 2: Add a VMInsights solution. Box 3: AInstall agents on the VM and VM scale set to be monitored. Box 4: Create a Log Analytics workspace.
+- D. Box 1: Create a Log Analytics workspace. Box 2: Add a VMInsights solution. Box 3: Create an Application Insights resource. Box 4: Install agents on the VM and VM scale set to be monitored.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1571,10 +1571,10 @@ D. Box 1: Create a Log Analytics workspace. Box 2: Add a VMInsights solution. Bo
 
 ![Question 109](images/question109.png)
 
-A. Rewrite the request URL to match to the format expected by the web service: Inbound. Remove formatting text from responses: Outbound. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Inbound.
-B. Rewrite the request URL to match to the format expected by the web service: Inbound. Remove formatting text from responses: Outbound. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Backend.
-C. Rewrite the request URL to match to the format expected by the web service: Inbound. Remove formatting text from responses: Backend. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Inbound.
-D. Rewrite the request URL to match to the format expected by the web service: Backend. Remove formatting text from responses: Backend. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Inbound.
+- A. Rewrite the request URL to match to the format expected by the web service: Inbound. Remove formatting text from responses: Outbound. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Inbound.
+- B. Rewrite the request URL to match to the format expected by the web service: Inbound. Remove formatting text from responses: Outbound. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Backend.
+- C. Rewrite the request URL to match to the format expected by the web service: Inbound. Remove formatting text from responses: Backend. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Inbound.
+- D. Rewrite the request URL to match to the format expected by the web service: Backend. Remove formatting text from responses: Backend. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Inbound.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1585,10 +1585,10 @@ D. Rewrite the request URL to match to the format expected by the web service: B
 
 ### Your company is developing an Azure API. You need to implement authentication for the Azure API. You have the following requirements: All API calls must be secure. Callers to the API must not send credentials to the API. Which authentication mechanism should you use?
 
-A. Basic.
-B. Anonymous.
-C. Managed identity.
-D. Client certificate.
+- A. Basic.
+- B. Anonymous.
+- C. Managed identity.
+- D. Client certificate.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1599,10 +1599,10 @@ D. Client certificate.
 
 ### You are a developer for a SaaS company that offers many web services. All web services for the company must meet the following requirements: Use API Management to access the services Use OpenID Connect for authentication Prevent anonymous usage A recent security audit found that several web services can be called without any authentication. Which API Management policy should you implement?
 
-A. `jsonp`.
-B. `authentication-certificate`.
-C. `check-header`.
-D. `validate-jwt`.
+- A. `jsonp`.
+- B. `authentication-certificate`.
+- C. `check-header`.
+- D. `validate-jwt`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1613,11 +1613,11 @@ D. `validate-jwt`.
 
 ### You are developing an Azure App Service REST API. The API must be called by an Azure App Service web app. The API must retrieve and update user profile information stored in Microsoft Entra ID. You need to configure the API to make the updates. Which two tools should you use?
 
-A. Microsoft Graph API.
-B. Microsoft Authentication Library (MSAL).
-C. Azure API Management.
-D. Microsoft Defender for Cloud.
-E. Microsoft Azure Key Vault SDK.
+- A. Microsoft Graph API.
+- B. Microsoft Authentication Library (MSAL).
+- C. Azure API Management.
+- D. Microsoft Defender for Cloud.
+- E. Microsoft Azure Key Vault SDK.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1628,10 +1628,10 @@ E. Microsoft Azure Key Vault SDK.
 
 ### You develop a REST API. You implement a user delegation SAS token to communicate with Azure Blob storage. The token is compromised. You need to revoke the token. What are two possible ways to achieve this goal?
 
-A. Revoke the delegation key.
-B. Delete the stored access policy.
-C. Regenerate the account key.
-D. Remove the role assignment for the security principle.
+- A. Revoke the delegation key.
+- B. Delete the stored access policy.
+- C. Regenerate the account key.
+- D. Remove the role assignment for the security principle.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1644,10 +1644,10 @@ D. Remove the role assignment for the security principle.
 
 ![Question 114](images/question114.jpeg)
 
-A. Box 1: Create a custom policy definition in Azure Policy. Box 2: Generate a Key Exchange Key (KEK). Box 3: Retrieve the Key Exchange Key (KEK) public key. Box 4: Run the `az keyvault key import` command.
-B. Box 1: Create a custom policy definition in Azure Policy. Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM `vendor-provided` tool. Box 4: Run the `az keyvault key import` command.
-C. Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM `vendor-provided` tool. Box 4: Run the `az keyvault key restore` command.
-D. Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM `vendor-provided` tool. Box 4: Run the `az keyvault key import` command.
+- A. Box 1: Create a custom policy definition in Azure Policy. Box 2: Generate a Key Exchange Key (KEK). Box 3: Retrieve the Key Exchange Key (KEK) public key. Box 4: Run the `az keyvault key import` command.
+- B. Box 1: Create a custom policy definition in Azure Policy. Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM `vendor-provided` tool. Box 4: Run the `az keyvault key import` command.
+- C. Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM `vendor-provided` tool. Box 4: Run the `az keyvault key restore` command.
+- D. Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM `vendor-provided` tool. Box 4: Run the `az keyvault key import` command.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1658,11 +1658,11 @@ D. Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Ke
 
 ### You develop and deploy an Azure Logic app that calls an Azure Function app. The Azure Function app includes an OpenAPI (Swagger) definition and uses an Azure Blob storage account. All resources are secured by using Microsoft Entra ID. The Azure Logic app must securely access the Azure Blob storage account. Microsoft Entra ID resources must remain if the Azure Logic app is deleted. You need to secure the Azure Logic app. What should you do?
 
-A. Create a user-assigned managed identity and assign role-based access controls.
-B. Create an Microsoft Entra ID custom role and assign the role to the Azure Blob storage account.
-C. Create an Azure Key Vault and issue a client certificate.
-D. Create a system-assigned managed identity and issue a client certificate.
-E. Create an Microsoft Entra ID custom role and assign role-based access controls.
+- A. Create a user-assigned managed identity and assign role-based access controls.
+- B. Create an Microsoft Entra ID custom role and assign the role to the Azure Blob storage account.
+- C. Create an Azure Key Vault and issue a client certificate.
+- D. Create a system-assigned managed identity and issue a client certificate.
+- E. Create an Microsoft Entra ID custom role and assign role-based access controls.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1675,10 +1675,10 @@ E. Create an Microsoft Entra ID custom role and assign role-based access control
 
 ![Question 116](images/question116.jpg)
 
-A. Edit B2B Workflows: Enterprise Integration Pack. Edit definitions in JSON: Code View Editor. Visually add functionality: Logic Apps Designer.
-B. Edit B2B Workflows: Logic Apps Designer. Edit definitions in JSON: Enterprise Integration Pack. Visually add functionality: Code View Editor.
-C. Edit B2B Workflows: Code View Editor. Edit definitions in JSON: Logic Apps Designer. Visually add functionality: Enterprise Integration Pack.
-D. Edit B2B Workflows: Enterprise Integration Pack. Edit definitions in JSON: Code View Editor. Visually add functionality: Code View Editor.
+- A. Edit B2B Workflows: Enterprise Integration Pack. Edit definitions in JSON: Code View Editor. Visually add functionality: Logic Apps Designer.
+- B. Edit B2B Workflows: Logic Apps Designer. Edit definitions in JSON: Enterprise Integration Pack. Visually add functionality: Code View Editor.
+- C. Edit B2B Workflows: Code View Editor. Edit definitions in JSON: Logic Apps Designer. Visually add functionality: Enterprise Integration Pack.
+- D. Edit B2B Workflows: Enterprise Integration Pack. Edit definitions in JSON: Code View Editor. Visually add functionality: Code View Editor.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1689,10 +1689,10 @@ D. Edit B2B Workflows: Enterprise Integration Pack. Edit definitions in JSON: Co
 
 ### You are developing a solution that will use a multi-partitioned Azure Cosmos DB database. You plan to use the latest Azure Cosmos DB SDK for development. The solution must meet the following requirements: Send insert and update operations to an Azure Blob storage account. Process changes to all partitions immediately. Allow parallelization of change processing. You need to process the Azure Cosmos DB operations. What are two possible ways to achieve this goal?
 
-A. Create an Azure App Service API and implement the change feed estimator of the SDK. Scale the API by using multiple Azure App Service instances.
-B. Create a background job in an Azure Kubernetes Service and implement the change feed feature of the SDK.
-C. Create an Azure Function to use a trigger for Azure Cosmos DB. Configure the trigger to connect to the container.
-D. Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange object to parallelize the processing of the change feed across multiple functions.
+- A. Create an Azure App Service API and implement the change feed estimator of the SDK. Scale the API by using multiple Azure App Service instances.
+- B. Create a background job in an Azure Kubernetes Service and implement the change feed feature of the SDK.
+- C. Create an Azure Function to use a trigger for Azure Cosmos DB. Configure the trigger to connect to the container.
+- D. Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange object to parallelize the processing of the change feed across multiple functions.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1705,8 +1705,8 @@ D. Create an Azure Function that uses a FeedIterator object that processes the c
 
 ![Question 118](images/question118_119_120.jpg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1719,8 +1719,8 @@ B. No.
 
 ![Question 119](images/question118_119_120.jpg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1733,8 +1733,8 @@ B. No.
 
 ![Question 120](images/question118_119_120.jpg)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1747,10 +1747,10 @@ B. No.
 
 ![Question 121](images/question121.png)
 
-A. Box 1: Create a single Service Bus Namespace. Box 2: Create a single Service Bus topic. Box 3: Create a Service Bus subscription for each restaurant for which a driver can receive orders.
-B. Box 1: Create a Service Bus subscription for each restaurant for which a driver can receive orders. Box 2: Create a Service Bus topic for each restaurant. Box 3: Create a Service Bus Namespace for each.
-C. Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus subscription for each restaurant for which a driver can receive orders. Box 3: Create a single Service Bus topic.
-D. Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespace for each restaurant for which a driver can receive messages. Box 3: Create a Service Bus Namespace for each.
+- A. Box 1: Create a single Service Bus Namespace. Box 2: Create a single Service Bus topic. Box 3: Create a Service Bus subscription for each restaurant for which a driver can receive orders.
+- B. Box 1: Create a Service Bus subscription for each restaurant for which a driver can receive orders. Box 2: Create a Service Bus topic for each restaurant. Box 3: Create a Service Bus Namespace for each.
+- C. Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus subscription for each restaurant for which a driver can receive orders. Box 3: Create a single Service Bus topic.
+- D. Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespace for each restaurant for which a driver can receive messages. Box 3: Create a Service Bus Namespace for each.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1763,10 +1763,10 @@ D. Box 1: Create a single Service Bus topic. Box 2: Create a Service Bus Namespa
 
 ![Question 122](images/question122.png)
 
-A. Box 1: `NotificationHubClient`. Box 2: `NotificationHubClient`. Box 3: `CreateClientFromConnectionString`. Box 4: `SendWindowsNativeNotificationAsync`.
-B. Box 1: `NotificationHubJob`. Box 2: `NotificationHubJob`. Box 3: `PatchInstallation`. Box 4: `SendWindowsNativeNotificationAsync`.
-C. Box 1: `NotificationHubClientSettings`. Box 2: `NotificationHubClientSettings`. Box 3: `CreateOrUpdatelnstallation`. Box 4: `ScheduleNotificationAsync`.
-D. Box 1: `NotificationHubClientSettings`. Box 2: `NotificationDetails`. Box 3: `CreateOrUpdatelnstallation`. Box 4: `SendWindowsNativeNotificationAsync`.
+- A. Box 1: `NotificationHubClient`. Box 2: `NotificationHubClient`. Box 3: `CreateClientFromConnectionString`. Box 4: `SendWindowsNativeNotificationAsync`.
+- B. Box 1: `NotificationHubJob`. Box 2: `NotificationHubJob`. Box 3: `PatchInstallation`. Box 4: `SendWindowsNativeNotificationAsync`.
+- C. Box 1: `NotificationHubClientSettings`. Box 2: `NotificationHubClientSettings`. Box 3: `CreateOrUpdatelnstallation`. Box 4: `ScheduleNotificationAsync`.
+- D. Box 1: `NotificationHubClientSettings`. Box 2: `NotificationDetails`. Box 3: `CreateOrUpdatelnstallation`. Box 4: `SendWindowsNativeNotificationAsync`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1777,10 +1777,10 @@ D. Box 1: `NotificationHubClientSettings`. Box 2: `NotificationDetails`. Box 3: 
 
 ### You are developing an Azure messaging solution. You need to ensure that the solution meets the following requirements: Provide transactional support. Provide duplicate detection. Store the messages for an unlimited period of time. Which two technologies will meet the requirements?
 
-A. Azure Service Bus Topic.
-B. Azure Service Bus Queue.
-C. Azure Storage Queue.
-D. Azure Event Hub.
+- A. Azure Service Bus Topic.
+- B. Azure Service Bus Queue.
+- C. Azure Storage Queue.
+- D. Azure Event Hub.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1793,10 +1793,10 @@ D. Azure Event Hub.
 
 ![Question 124](images/question124.jpg)
 
-A. Target: Azure Resource. Gateway credentials: Client cert.
-B. Target: Client cert. Gateway credentials: Basic.
-C. Target: Azure Resource. Gateway credentials: Basic.
-D. Target: HTTP(s) endpoint. Gateway credentials: Client cert.
+- A. Target: Azure Resource. Gateway credentials: Client cert.
+- B. Target: Client cert. Gateway credentials: Basic.
+- C. Target: Azure Resource. Gateway credentials: Basic.
+- D. Target: HTTP(s) endpoint. Gateway credentials: Client cert.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1809,10 +1809,10 @@ D. Target: HTTP(s) endpoint. Gateway credentials: Client cert.
 
 ![Question 125](images/question125.jpg)
 
-A. WebHook event delivery: SAS tokens. Topic publishing: ValidationCode handshake.
-B. WebHook event delivery: Key authentication. Topic publishing: ValidationCode handshake.
-C. WebHook event delivery: Management Access Control. Topic publishing: ValidationURL handshake.
-D. WebHook event delivery: SAS tokens. Topic publishing: ValidationURL handshake.
+- A. WebHook event delivery: SAS tokens. Topic publishing: ValidationCode handshake.
+- B. WebHook event delivery: Key authentication. Topic publishing: ValidationCode handshake.
+- C. WebHook event delivery: Management Access Control. Topic publishing: ValidationURL handshake.
+- D. WebHook event delivery: SAS tokens. Topic publishing: ValidationURL handshake.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1825,8 +1825,8 @@ D. WebHook event delivery: SAS tokens. Topic publishing: ValidationURL handshake
 
 ![Question 126](images/question126_127_128.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1839,8 +1839,8 @@ B. No.
 
 ![Question 127](images/question126_127_128.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1853,8 +1853,8 @@ B. No.
 
 ![Question 128](images/question126_127_128.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1865,10 +1865,10 @@ B. No.
 
 ### You develop a gateway solution for a public facing news API. The news API back end is implemented as a RESTful service and uses an OpenAPI specification. You need to ensure that you can access the news API by using an Azure API Management service instance. Which Azure PowerShell command should you run?
 
-A. `Import-AzureRmApiManagementApi -Context $ApiMgmtContext -SpecificationFormat 'Swagger' -SpecificationPath $SwaggerPath -Path $Path`.
-B. `New-AzureRmApiManagementBackend -Context $ApiMgmtContext-Url $Url -Protocol http`.
-C. `New-AzureRmApiManagement -ResourceGroupName $ResourceGroup -Name $Name 'Location $Location -Organization $Org -AdminEmail $AdminEmail`.
-D. `New-AzureRmApiManagementBackendProxy -Url $ApiUrl`.
+- A. `Import-AzureRmApiManagementApi -Context $ApiMgmtContext -SpecificationFormat 'Swagger' -SpecificationPath $SwaggerPath -Path $Path`.
+- B. `New-AzureRmApiManagementBackend -Context $ApiMgmtContext-Url $Url -Protocol http`.
+- C. `New-AzureRmApiManagement -ResourceGroupName $ResourceGroup -Name $Name 'Location $Location -Organization $Org -AdminEmail $AdminEmail`.
+- D. `New-AzureRmApiManagementBackendProxy -Url $ApiUrl`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1879,10 +1879,10 @@ D. `New-AzureRmApiManagementBackendProxy -Url $ApiUrl`.
 
 ### You are developing an Azure function that connects to an Azure SQL Database instance. The function is triggered by an Azure Storage queue. You receive reports of numerous System.InvalidOperationExceptions with the following message: 'Timeout expired. The timeout period elapsed prior to obtaining a connection from the pool. This may have occurred because all pooled connections were in use and max pool size was reached.' You need to prevent the exception. What should you do?
 
-A. In the `host.json` file, decrease the value of the `batchSize` option.
-B. Convert the trigger to Azure Event Hub.
-C. Convert the Azure Function to the Premium plan.
-D. In the `function.json` file, change the value of the type option to `queueScaling`.
+- A. In the `host.json` file, decrease the value of the `batchSize` option.
+- B. Convert the trigger to Azure Event Hub.
+- C. Convert the Azure Function to the Premium plan.
+- D. In the `function.json` file, change the value of the type option to `queueScaling`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1895,10 +1895,10 @@ D. In the `function.json` file, change the value of the type option to `queueSca
 
 ![Question 131](images/question131.png)
 
-A. Box 1: `on-error`. Box 2: `context`. Box 3: `context`. Box 4: `set-status`. Box 5: `on-error`.
-B. Box 1: `when-error`. Box 2: `context`. Box 3: `server`. Box 4: `override-status`. Box 5: `on-error`.
-C. Box 1: `when-error`. Box 2: `context`. Box 3: `context`. Box 4: `set-status`. Box 5: `on-error`.
-D. Box 1: `on-error`. Box 2: `context`. Box 3: `server`. Box 4: `override-status`. Box 5: `on-error`.
+- A. Box 1: `on-error`. Box 2: `context`. Box 3: `context`. Box 4: `set-status`. Box 5: `on-error`.
+- B. Box 1: `when-error`. Box 2: `context`. Box 3: `server`. Box 4: `override-status`. Box 5: `on-error`.
+- C. Box 1: `when-error`. Box 2: `context`. Box 3: `context`. Box 4: `set-status`. Box 5: `on-error`.
+- D. Box 1: `on-error`. Box 2: `context`. Box 3: `server`. Box 4: `override-status`. Box 5: `on-error`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1911,10 +1911,10 @@ D. Box 1: `on-error`. Box 2: `context`. Box 3: `server`. Box 4: `override-status
 
 ![Question 132](images/question132.jpg)
 
-A. Box 1: `windows`. Box 2: `application/octet-stream`.
-B. Box 1: `windowsphone`. Box 2: `raw`.
-C. Box 1: `windows`. Box 2: `application/json`.
-D. Box 1: `windowsphone`. Box 2: `application/xml`.
+- A. Box 1: `windows`. Box 2: `application/octet-stream`.
+- B. Box 1: `windowsphone`. Box 2: `raw`.
+- C. Box 1: `windows`. Box 2: `application/json`.
+- D. Box 1: `windowsphone`. Box 2: `application/xml`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1925,11 +1925,11 @@ D. Box 1: `windowsphone`. Box 2: `application/xml`.
 
 ### You develop and deploy an ASP.NET web app to Azure App Service. You use Application Insights telemetry to monitor the app. You must test the app to ensure that the app is available and responsive from various points around the world and at regular intervals. If the app is not responding, you must send an alert to support staff. You need to configure a test for the web app. Which two test types can you use?
 
-A. Integration.
-B. TrackAvailablity.
-C. URL ping.
-D. Unit.
-E. Load.
+- A. Integration.
+- B. TrackAvailablity.
+- C. URL ping.
+- D. Unit.
+- E. Load.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1942,10 +1942,10 @@ E. Load.
 
 ![Question 134](images/question134.png)
 
-A. Event Source: Azure Event Grid. Event Receiver: Azure Logic App. Event Handler: Azure Service Bus.
-B. Event Source: Azure Service Bus. Event Receiver: Azure App Service. Event Handler: Azure Blob Storage.
-C. Event Source: Azure Event Grid. Event Receiver: Azure Service Bus. Event Handler: Azure Blob Storage.
-D. Event Source: Azure Blob Storage. Event Receiver: Azure Event Grid. Event Handler: Azure Logic App.
+- A. Event Source: Azure Event Grid. Event Receiver: Azure Logic App. Event Handler: Azure Service Bus.
+- B. Event Source: Azure Service Bus. Event Receiver: Azure App Service. Event Handler: Azure Blob Storage.
+- C. Event Source: Azure Event Grid. Event Receiver: Azure Service Bus. Event Handler: Azure Blob Storage.
+- D. Event Source: Azure Blob Storage. Event Receiver: Azure Event Grid. Event Handler: Azure Logic App.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1956,8 +1956,8 @@ D. Event Source: Azure Blob Storage. Event Receiver: Azure Event Grid. Event Han
 
 ### Determine whether the solution meets the stated goals. You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output. You must use a storage mechanism with the following requirements: Share session state across all ASP.NET web applications. Support controlled, concurrent access to the same session state data for multiple readers and a single writer. Save full HTTP responses for concurrent requests. You need to store the information. Proposed Solution: Enable Application Request Routing (ARR). Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1968,8 +1968,8 @@ B. No.
 
 ### Determine whether the solution meets the stated goals. You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output. You must use a storage mechanism with the following requirements: Share session state across all ASP.NET web applications. Support controlled, concurrent access to the same session state data for multiple readers and a single writer. Save full HTTP responses for concurrent requests. You need to store the information. Proposed Solution: Deploy and configure an Azure Database for PostgreSQL. Update the web applications. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1980,8 +1980,8 @@ B. No.
 
 ### Determine whether the solution meets the stated goals. You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output. You must use a storage mechanism with the following requirements: Share session state across all ASP.NET web applications. Support controlled, concurrent access to the same session state data for multiple readers and a single writer. Save full HTTP responses for concurrent requests. You need to store the information. Proposed Solution: Deploy and configure Azure Cache for Redis. Update the web applications. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -1994,10 +1994,10 @@ B. No.
 
 ![Question 138](images/question138.jpg)
 
-A. Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache.StringSet('Team', '');`.
-B. Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache KeyDelete('Team');`.
-C. Box 1: `ICache cache = Connection.GetDatabase();`. Box 2: `cache KeyDelete('Team');`.
-D. Box 1: `ICache cache = Connection.GetDatabase();`. Box 2: `cache StringGet('Team', '');`.
+- A. Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache.StringSet('Team', '');`.
+- B. Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache KeyDelete('Team');`.
+- C. Box 1: `ICache cache = Connection.GetDatabase();`. Box 2: `cache KeyDelete('Team');`.
+- D. Box 1: `ICache cache = Connection.GetDatabase();`. Box 2: `cache StringGet('Team', '');`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2010,11 +2010,11 @@ D. Box 1: `ICache cache = Connection.GetDatabase();`. Box 2: `cache StringGet('T
 
 ![Question 139](images/question139.png)
 
-A. Box 1: Create a blank Logic app. Box 2: Add a logic app trigger that fires when one or more messages arrive in the queue. Box 3: Add an action that reads IoT temperature data from the Service Bus queue. Box 4: Add a condition that compares the temperature against the upper and lower thresholds. Box 5: Add an action that sends an email to
+- A. Box 1: Create a blank Logic app. Box 2: Add a logic app trigger that fires when one or more messages arrive in the queue. Box 3: Add an action that reads IoT temperature data from the Service Bus queue. Box 4: Add a condition that compares the temperature against the upper and lower thresholds. Box 5: Add an action that sends an email to
 specified personnel if the temperature is outside of those thresholds.
-B. Box 1: Add a trigger that reads IoT temperature data from a Service Bus queue. Box 2: Add a condition that compares the temperature against the upper and lower thresholds. Box 3: Add a logic app action that fires when one or more messages arrive in the queue. Box 4: Create a blank Logic app. Box 5: Add an action that sends an email to specified personnel if the temperature is outside of those thresholds.
-C. Box 1: Add a condition that compares the temperature against the upper and lower thresholds. Box 2: Outbound. Box 3: Add a Recurence rigge that schedules the app to run every 15 minutes. Box 4: Add a trigger that reads IoT temperature data from a Service Bus queue. Box 5: Create a blank Logic app.
-D. Box 1: Create a blank Logic app. Box 2: Add a logic app action that fires when one or more messages arrive in the queue. Box 3: Add a condition that compares the temperature against the upper and lower thresholds. Box 4: Add an action that reads IoT temperature data from the Service Bus queue. Box 5: Add a condition that compares the temperature against the upper and lower thresholds.
+- B. Box 1: Add a trigger that reads IoT temperature data from a Service Bus queue. Box 2: Add a condition that compares the temperature against the upper and lower thresholds. Box 3: Add a logic app action that fires when one or more messages arrive in the queue. Box 4: Create a blank Logic app. Box 5: Add an action that sends an email to specified personnel if the temperature is outside of those thresholds.
+- C. Box 1: Add a condition that compares the temperature against the upper and lower thresholds. Box 2: Outbound. Box 3: Add a Recurence rigge that schedules the app to run every 15 minutes. Box 4: Add a trigger that reads IoT temperature data from a Service Bus queue. Box 5: Create a blank Logic app.
+- D. Box 1: Create a blank Logic app. Box 2: Add a logic app action that fires when one or more messages arrive in the queue. Box 3: Add a condition that compares the temperature against the upper and lower thresholds. Box 4: Add an action that reads IoT temperature data from the Service Bus queue. Box 5: Add a condition that compares the temperature against the upper and lower thresholds.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2025,12 +2025,12 @@ D. Box 1: Create a blank Logic app. Box 2: Add a logic app action that fires whe
 
 ### You are creating a hazard notification system that has a single signaling server which triggers audio and visual alarms to start and stop. You implement Azure Service Bus to publish alarms. Each alarm controller uses Azure Service Bus to receive alarm signals as part of a transaction. Alarm events must be recorded for audit purposes. Each transaction record must include information about the alarm type that was activated. You need to implement a reply trail auditing solution. Which two actions should you perform?
 
-A. Assign the value of the hazard message `SessionID` property to the `ReplyToSessionId` property.
-B. Assign the value of the hazard message `MessageId` property to the `DevileryCount` property.
-C. Assign the value of the hazard message `SessionID` property to the `SequenceNumber` property.
-D. Assign the value of the hazard message `MessageId` property to the `CorrelationId` property.
-E. Assign the value of the hazard message `SequenceNumber` property to the `DeliveryCount` property.
-F. Assign the value of the hazard message `MessageId` property to the `SequenceNumber` property.
+- A. Assign the value of the hazard message `SessionID` property to the `ReplyToSessionId` property.
+- B. Assign the value of the hazard message `MessageId` property to the `DevileryCount` property.
+- C. Assign the value of the hazard message `SessionID` property to the `SequenceNumber` property.
+- D. Assign the value of the hazard message `MessageId` property to the `CorrelationId` property.
+- E. Assign the value of the hazard message `SequenceNumber` property to the `DeliveryCount` property.
+- F. Assign the value of the hazard message `MessageId` property to the `SequenceNumber` property.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2041,11 +2041,11 @@ F. Assign the value of the hazard message `MessageId` property to the `SequenceN
 
 ### You are developing applications for a company. You plan to host the applications on Azure App Services. The company has the following requirements: Every five minutes verify that the websites are responsive. Verify that the websites respond within a specified time threshold. Dependent requests such as images and JavaScript files must load properly. Generate alerts if a website is experiencing issues. If a website fails to load, the system must attempt to reload the site three more times. You need to implement this process with the least amount of effort. What should you do?
 
-A. Create a Selenium web test and configure it to run from your workstation as a scheduled task.
-B. Set up a URL ping test to query the home page.
-C. Create an Azure function to query the home page.
-D. Create a multi-step web test to query the home page.
-E. Create a Custom Track Availability Test to query the home page.
+- A. Create a Selenium web test and configure it to run from your workstation as a scheduled task.
+- B. Set up a URL ping test to query the home page.
+- C. Create an Azure function to query the home page.
+- D. Create a multi-step web test to query the home page.
+- E. Create a Custom Track Availability Test to query the home page.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2056,10 +2056,10 @@ E. Create a Custom Track Availability Test to query the home page.
 
 ### You develop and add several functions to an Azure Function app that uses the latest runtime host. The functions contain several REST API endpoints secured by using SSL. The Azure Function app runs in a Consumption plan. You must send an alert when any of the function endpoints are unavailable or responding too slowly. You need to monitor the availability and responsiveness of the functions. What should you do?
 
-A. Create a URL ping test.
-B. Create a timer triggered function that calls `TrackAvailability()` and send the results to Application Insights.
-C. Create a timer triggered function that calls `GetMetric('Request Size')` and send the results to Application Insights.
-D. Add a new diagnostic setting to the Azure Function app. Enable the `FunctionAppLogs` and Send to Log Analytics options.
+- A. Create a URL ping test.
+- B. Create a timer triggered function that calls `TrackAvailability()` and send the results to Application Insights.
+- C. Create a timer triggered function that calls `GetMetric('Request Size')` and send the results to Application Insights.
+- D. Add a new diagnostic setting to the Azure Function app. Enable the `FunctionAppLogs` and Send to Log Analytics options.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2070,10 +2070,10 @@ D. Add a new diagnostic setting to the Azure Function app. Enable the `FunctionA
 
 ### You are developing an e-commerce solution that uses a microservice architecture. You need to design a communication backplane for communicating transactional messages between various parts of the solution. Messages must be communicated in first-in-first-out (FIFO) order. What should you use?
 
-A. Azure Storage Queue.
-B. Azure Event Hub.
-C. Azure Service Bus.
-D. Azure Event Grid.
+- A. Azure Storage Queue.
+- B. Azure Event Hub.
+- C. Azure Service Bus.
+- D. Azure Event Grid.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2084,8 +2084,8 @@ D. Azure Event Grid.
 
 ### You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently. You have the following requirements: Queue size must not grow larger than 80 gigabytes (GB). Use first-in-first-out (FIFO) ordering of messages. Minimize Azure costs. You need to implement the messaging solution. Solution: Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. Create an Azure Function App that uses an Azure Service Bus Queue trigger. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2096,8 +2096,8 @@ B. No.
 
 ### You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data. You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future. You need to implement a solution to receive the device data. Solution: Provision an Azure Notification Hub. Register all devices with the hub. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2108,8 +2108,8 @@ B. No.
 
 ### You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data. You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future. You need to implement a solution to receive the device data. Solution: Provision an Azure Service Bus. Configure a topic to receive the device data by using a correlation filter. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2120,8 +2120,8 @@ B. No.
 
 ### You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data. You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future. You need to implement a solution to receive the device data. Solution: Provision an Azure Event Grid. Configure event filtering to evaluate the device identifier. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2132,8 +2132,8 @@ B. No.
 
 ### You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently. You have the following requirements: Queue size must not grow larger than 80 gigabytes (GB). Use first-in-first-out (FIFO) ordering of messages. Minimize Azure costs. You need to implement the messaging solution. Solution: Use the .Net API to add a message to an Azure Storage Queue from the mobile application. Create an Azure Function App that uses an Azure Storage Queue trigger. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2144,8 +2144,8 @@ B. No.
 
 ### You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently. You have the following requirements: Queue size must not grow larger than 80 gigabytes (GB). Use first-in-first-out (FIFO) ordering of messages. Minimize Azure costs. You need to implement the messaging solution. Solution: Use the .Net API to add a message to an Azure Storage Queue from the mobile application. Create an Azure VM that is triggered from Azure Storage Queue events. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2156,10 +2156,10 @@ B. No.
 
 ### You are developing a solution that will use Azure messaging services. You need to ensure that the solution uses a publish-subscribe model and eliminates the need for constant polling. What are two possible ways to achieve the goal?
 
-A. Service Bus.
-B. Event Hub.
-C. Event Grid.
-D. Queue.
+- A. Service Bus.
+- B. Event Hub.
+- C. Event Grid.
+- D. Queue.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2170,10 +2170,10 @@ D. Queue.
 
 ### A company is implementing a publish-subscribe (Pub/Sub) messaging component by using Azure Service Bus. You are developing the first subscription application. In the Azure portal you see that messages are being sent to the subscription for each topic. You create and initialize a subscription client object by supplying the correct details, but the subscription application is still not consuming the messages. You need to ensure that the subscription client processes all messages. Which code segment should you use?
 
-A. `await subscriptionClient.AddRuleAsync(new RuleDescription(RuleDescription.DefaultRuleName, new TrueFilter()));`.
-B. `subscriptionClient = new SubscriptionClient(ServiceBusConnectionString, TopicName, SubscriptionName);`.
-C. `await subscriptionClient.CloseAsync();`.
-D. `subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);`.
+- A. `await subscriptionClient.AddRuleAsync(new RuleDescription(RuleDescription.DefaultRuleName, new TrueFilter()));`.
+- B. `subscriptionClient = new SubscriptionClient(ServiceBusConnectionString, TopicName, SubscriptionName);`.
+- C. `await subscriptionClient.CloseAsync();`.
+- D. `subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2184,8 +2184,8 @@ D. `subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandl
 
 ### You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data. You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future. You need to implement a solution to receive the device data. Solution: Provision an Azure Event Hub. Configure the machine identifier as the partition key and enable capture. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2196,10 +2196,10 @@ B. No.
 
 ### A company is developing a solution that allows smart refrigerators to send temperature information to a central location. The solution must receive and store messages until they can be processed. You create an Azure Service Bus instance by providing a name, pricing tier, subscription, resource group, and location. You need to complete the configuration. Which Azure CLI or PowerShell command should you run?
 
-A. `az group create --name fridge-rg --location fridge-loc`.
-B. `New-AzureRmServiceBusNamespace -ResourceGroupName fridge-rg -NamespaceName fridge-ns -Location fridge-loc`.
-C. `New-AzureRmServiceBusQueue -ResourceGroupName fridge-rg -NamespaceName fridge-ns -Name fridge-q -EnablePartitioning $False`.
-D. `az servicebus namespace create --resource-group fridge-rg --name fridge-rg --location fridge-loc`.
+- A. `az group create --name fridge-rg --location fridge-loc`.
+- B. `New-AzureRmServiceBusNamespace -ResourceGroupName fridge-rg -NamespaceName fridge-ns -Location fridge-loc`.
+- C. `New-AzureRmServiceBusQueue -ResourceGroupName fridge-rg -NamespaceName fridge-ns -Name fridge-q -EnablePartitioning $False`.
+- D. `az servicebus namespace create --resource-group fridge-rg --name fridge-rg --location fridge-loc`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2210,8 +2210,8 @@ D. `az servicebus namespace create --resource-group fridge-rg --name fridge-rg -
 
 ### Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A fellow administrator named `Jon Ross` used an Azure Resource Manager template to deploy a virtual machine and an Azure Storage account. You need to identify the Azure Resource Manager template the Jon Ross used. Solution: You access the `Container` blade. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2222,8 +2222,8 @@ B. No.
 
 ### Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A fellow administrator named `Jon Ross` used an Azure Resource Manager template to deploy a virtual machine and an Azure Storage account. You need to identify the Azure Resource Manager template the Jon Ross used. Solution: You access the `Virtual Machine` blade. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2234,8 +2234,8 @@ B. No.
 
 ### Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A fellow administrator named `Jon Ross` used an Azure Resource Manager template to deploy a virtual machine and an Azure Storage account. You need to identify the Azure Resource Manager template the Jon Ross used. Solution: You access the `Resource Group` blade. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2246,8 +2246,8 @@ B. No.
 
 ### You are developing a web app named `mywebapp1`. `Mywebapp1` uses the address `myapp1.azurewebsites.net`. You protect `mywebapp1` by implementing an Azure Web Application Firewall (WAF). The traffic to `mywebapp1` is routed through an Azure Application Gateway instance that is also used by other web apps. You want to secure all traffic to `mywebapp1` by using SSL. Solution: You open the Azure Application Gateway's HTTP setting and set the `Override` backend path option to `mywebapp1.azurewebsites.net`. You then enable the Use for App service option. Does this meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2258,8 +2258,8 @@ B. No.
 
 ### You are developing a web app named `mywebapp1`. `Mywebapp1` uses the address `myapp1.azurewebsites.net`. You protect `mywebapp1` by implementing an Azure Web Application Firewall (WAF). The traffic to `mywebapp1` is routed through an Azure Application Gateway instance that is also used by other web apps. You want to secure all traffic to `mywebapp1` by using SSL. Solution: You configure `mywebapp1` to run in an Azure App service environment (ASE). Does this meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2270,8 +2270,8 @@ B. No.
 
 ### You are developing a web app named `mywebapp1`. `Mywebapp1` uses the address `myapp1.azurewebsites.net`. You protect `mywebapp1` by implementing an Azure Web Application Firewall (WAF). The traffic to `mywebapp1` is routed through an Azure Application Gateway instance that is also used by other web apps. You want to secure all traffic to `mywebapp1` by using SSL. Solution: You open the Azure Application Gateway's HTTP setting and set the `Override` backend path option to `mywebapp1.azurewebsites.net`. You then add an authentication certificate for `mywebapp1.azurewebsites.net`. Does this meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2282,10 +2282,10 @@ B. No.
 
 ### Your company has a web app named `WebApp1`. You use the WebJobs SDK to design a triggered App Service background task that automatically invokes a function in the code every time new data is received in a queue. You are preparing to configure the service processes a queue data item. Which of the following is the service you should use?
 
-A. Logic Apps.
-B. WebJobs.
-C. Flow.
-D. Functions.
+- A. Logic Apps.
+- B. WebJobs.
+- C. Flow.
+- D. Functions.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2296,10 +2296,10 @@ D. Functions.
 
 ### Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the `platformFaultDomainCount` property?
 
-A. 10.
-B. 30.
-C. Min Value.
-D. Max Value.
+- A. 10.
+- B. 30.
+- C. Min Value.
+- D. Max Value.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2310,10 +2310,10 @@ D. Max Value.
 
 ### You have two Hyper-V hosts named `Host1` and `Host2`. Host1 has an Azure virtual machine named `VM1` that was deployed by using a custom Azure Resource Manager template. You need to move `VM1` to `Host2`. What should you do?
 
-A. From the `Update management` blade, click `Enable`.
-B. From the `Overview` blade, move `VM1` to a different subscription.
-C. From the `Redeploy` blade, click `Redeploy`.
-D. From the `Profile` blade, modify the usage location.
+- A. From the `Update management` blade, click `Enable`.
+- B. From the `Overview` blade, move `VM1` to a different subscription.
+- C. From the `Redeploy` blade, click `Redeploy`.
+- D. From the `Profile` blade, modify the usage location.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2324,8 +2324,8 @@ D. From the `Profile` blade, modify the usage location.
 
 ### Your company has an Azure Kubernetes Service (AKS) cluster that you manage from an Microsoft Entra ID-joined device. The cluster is located in a resource group. Developers have created an application named `MyApp`. `MyApp` was packaged into a container image. You need to deploy the YAML manifest file for the application. Solution: You install the Azure CLI on the device and run the `kubectl apply -f myapp.yaml` command. Does this meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2336,8 +2336,8 @@ B. No.
 
 ### Your company has an Azure Kubernetes Service (AKS) cluster that you manage from an Microsoft Entra ID-joined device. The cluster is located in a resource group. Developers have created an application named `MyApp`. `MyApp` was packaged into a container image. You need to deploy the YAML manifest file for the application. Solution: You install the docker client on the device and run the `docker run -it microsoft/azure-cli:0.10.17` command. Does this meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2348,10 +2348,10 @@ B. No.
 
 ### Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the `platformUpdateDomainCount` property?
 
-A. 10.
-B. 20.
-C. 30.
-D. 40.
+- A. 10.
+- B. 20.
+- C. 30.
+- D. 40.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2362,8 +2362,8 @@ D. 40.
 
 ### You are designing an Azure WebJob that will run on the same instances as a web app. You want to make use of a suitable WebJob type. The webjob type should also allow for the option to restrict the WebJob to a single instance. Solution: You configure the use of the Triggered WebJob type. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2374,8 +2374,8 @@ B. No.
 
 ### You are designing an Azure WebJob that will run on the same instances as a web app. You want to make use of a suitable WebJob type. The webjob type should also allow for the option to restrict the WebJob to a single instance. Solution: You configure the use of the Continuous WebJob type. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2386,10 +2386,10 @@ B. No.
 
 ### You company has an on-premises deployment of MongoDB, and an Azure Cosmos DB account that makes use of the MongoDB API. You need to devise a strategy to migrate MongoDB to the Azure Cosmos DB account. You include the [Data Management Gateway] tool in your migration strategy.
 
-A. No change required.
-B. `mongorestore`.
-C. Azure Storage Explorer.
-D. `AzCopy`.
+- A. No change required.
+- B. `mongorestore`.
+- C. Azure Storage Explorer.
+- D. `AzCopy`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2400,8 +2400,8 @@ D. `AzCopy`.
 
 ### You are developing an application that processes Azure Blob storage events. Your application has the following requirements: Process transaction logs asynchronously for changes that occur to the blobs and the blob metadata. Process changes in the order in which they occurred. Retain changes for compliance reasons. Solution: You use Azure Event Grid with a subscriber Azure Function app. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2412,8 +2412,8 @@ B. No.
 
 ### You are developing an application that processes Azure Blob storage events. Your application has the following requirements: Process transaction logs asynchronously for changes that occur to the blobs and the blob metadata. Process changes in the order in which they occurred. Retain changes for compliance reasons. Solution: You use Azure Monitor HTTP Data Collector API. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2424,8 +2424,8 @@ B. No.
 
 ### You are developing a mobile app that uses an Azure SQL Database named `Weyland`. The database contains a table named `Customers` that has a field named `email_address`. You want to implement dynamic data masking to hide the data in the `email_address` field. Solution: You run the follows transact-SQL statement: `ALTER TABLE [dbo].[Weyland].[Customers] ALTER COLUMN [email_address] ADD MASKED WITH (FUNCTION = 'email()')`. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2436,8 +2436,8 @@ B. No.
 
 ### You are developing a mobile app that uses an Azure SQL Database named `Weyland`. The database contains a table named `Customers` that has a field named `email_address`. You want to implement dynamic data masking to hide the data in the `email_address` field. Solution: You run the `Set-AzSqlDatabaseDataMaskingPolicy -DatabaseName 'Weyland'` Powershell cmdlet Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2448,8 +2448,8 @@ B. No.
 
 ### You are developing a mobile app that uses an Azure SQL Database named `Weyland`. The database contains a table named `Customers` that has a field named `email_address`. You want to implement dynamic data masking to hide the data in the `email_address` field. Solution: You run the `Set-AzSqlDatabaseDataMaskingRule -DatabaseName 'Weyland' -SchemaName 'dbo' -TableName 'Customers' -ColumnName 'email_address' -MaskingFunction 'email'` Powershell cmdlet Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2460,10 +2460,10 @@ B. No.
 
 ### You are developing an e-Commerce Web App. You want to use Azure Key Vault to ensure that sign-ins to the e-Commerce Web App are secured by using Azure App Service authentication and Microsoft Entra ID. What should you do on the e-Commerce Web App?
 
-A. Run the `az keyvault secret` command.
-B. Enable Microsoft Entra ID Connect.
-C. Enable Managed Service Identity (MSI).
-D. Create an Microsoft Entra ID service principal.
+- A. Run the `az keyvault secret` command.
+- B. Enable Microsoft Entra ID Connect.
+- C. Enable Managed Service Identity (MSI).
+- D. Create an Microsoft Entra ID service principal.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2474,10 +2474,10 @@ D. Create an Microsoft Entra ID service principal.
 
 ### You are developing a web app that uses Microsoft Entra ID for authentication. You want to configure the web app to use multifactor authentication. What should you do?
 
-A. Enable mobile app authentication.
-B. In Microsoft Entra ID conditional access, enable the baseline policy.
-C. In Microsoft Entra ID, create a conditional access policy.
-D. Install the Azure Multi-Factor Authentication Server.
+- A. Enable mobile app authentication.
+- B. In Microsoft Entra ID conditional access, enable the baseline policy.
+- C. In Microsoft Entra ID, create a conditional access policy.
+- D. Install the Azure Multi-Factor Authentication Server.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2488,10 +2488,10 @@ D. Install the Azure Multi-Factor Authentication Server.
 
 ### You are creating an Azure key vault using PowerShell. Objects deleted from the key vault must be kept for a set period of 90 days. Which two of the following parameters must be used in conjunction to meet the requirement? (Choose two.)
 
-A. `EnabledForDeployment`.
-B. `EnablePurgeProtection`.
-C. `EnabledForTemplateDeployment`.
-D. `EnableSoftDelete`.
+- A. `EnabledForDeployment`.
+- B. `EnablePurgeProtection`.
+- C. `EnabledForTemplateDeployment`.
+- D. `EnableSoftDelete`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2502,8 +2502,8 @@ D. `EnableSoftDelete`.
 
 ### Your company has an Microsoft Entra ID environment. Users occasionally connect to Microsoft Entra ID via the Internet. You need to ensure that users who connect to Microsoft Entra ID via the internet using an unidentified IP address, are automatically instructed to change their passwords. Solution: You configure the use of Azure Key Vault. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2514,8 +2514,8 @@ B. No.
 
 ### Your company has an Microsoft Entra ID environment. Users occasionally connect to Microsoft Entra ID via the Internet. You need to ensure that users who connect to Microsoft Entra ID via the internet using an unidentified IP address, are automatically instructed to change their passwords. Solution: You configure the use of Microsoft Entra ID Identity Protection. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2526,8 +2526,8 @@ B. No.
 
 ### Your company has an Microsoft Entra ID environment. Users occasionally connect to Microsoft Entra ID via the Internet. You need to ensure that users who connect to Microsoft Entra ID via the internet using an unidentified IP address, are automatically instructed to change their passwords. Solution: You configure the use of Microsoft Entra ID Privileged Identity Management. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2538,10 +2538,10 @@ B. No.
 
 ### You manage an Azure SQL database that allows for Microsoft Entra ID authentication. You need to make sure that database developers can connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). You also need to make sure the developers use their on-premises Microsoft Entra ID account for authentication. Your strategy should allow for authentication prompts to be kept to a minimum. Which of the following should you implement?
 
-A. Microsoft Entra ID token.
-B. Azure Multi-Factor authentication.
-C. Microsoft Entra ID integrated authentication.
-D. OATH software tokens.
+- A. Microsoft Entra ID token.
+- B. Azure Multi-Factor authentication.
+- C. Microsoft Entra ID integrated authentication.
+- D. OATH software tokens.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2552,10 +2552,10 @@ D. OATH software tokens.
 
 ### You are developing an application to transfer data between on-premises file servers and Azure Blob storage. The application stores keys, secrets, and certificates in Azure Key Vault and makes use of the Azure Key Vault APIs. You want to configure the application to allow recovery of an accidental deletion of the key vault or key vault objects for 90 days after deletion. What should you do?
 
-A. Run the `Add-AzKeyVaultKey` cmdlet.
-B. Run the `az keyvault update --enable-soft-delete true --enable-purge-protection true` CLI.
-C. Implement virtual network service endpoints for Azure Key Vault.
-D. Run the `az keyvault update --enable-soft-delete false` CLI.
+- A. Run the `Add-AzKeyVaultKey` cmdlet.
+- B. Run the `az keyvault update --enable-soft-delete true --enable-purge-protection true` CLI.
+- C. Implement virtual network service endpoints for Azure Key Vault.
+- D. Run the `az keyvault update --enable-soft-delete false` CLI.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2566,8 +2566,8 @@ D. Run the `az keyvault update --enable-soft-delete false` CLI.
 
 ### You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users' streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user. Solution: You include the use of Azure Redis Cache in your design. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2578,8 +2578,8 @@ B. No.
 
 ### You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users' streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user. Solution: You include the use of an Azure Content Delivery Network (CDN) in your design. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2590,8 +2590,8 @@ B. No.
 
 ### You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users' streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user. Solution: You include the use of a Storage Area Network (SAN) in your design. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2602,10 +2602,10 @@ B. No.
 
 ### You develop a Web App on a tier D1 app service plan. You notice that page load times increase during periods of peak traffic. You want to implement automatic scaling when CPU load is above 80 percent. Your solution must minimize costs. What should you do first?
 
-A. Enable autoscaling on the Web App.
-B. Switch to the Premium App Service tier plan.
-C. Switch to the Standard App Service tier plan.
-D. Switch to the Azure App Services consumption plan.
+- A. Enable autoscaling on the Web App.
+- B. Switch to the Premium App Service tier plan.
+- C. Switch to the Standard App Service tier plan.
+- D. Switch to the Azure App Services consumption plan.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2616,8 +2616,8 @@ D. Switch to the Azure App Services consumption plan.
 
 ### You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Basic gateway credentials for the Azure resource. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2628,8 +2628,8 @@ B. No.
 
 ### You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Client cert gateway credentials for the HTTP(s) endpoint. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2640,8 +2640,8 @@ B. No.
 
 ### You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Basic gateway credentials for the HTTP(s) endpoint. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2652,8 +2652,8 @@ B. No.
 
 ### You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Client cert gateway credentials for the Azure resource. Does the solution meet the goal?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2664,10 +2664,10 @@ B. No.
 
 ### You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers. You want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation venues. You want the application to list holiday accommodation venues that fall within a specific price range and are within a specified distance to an airport. What should you do?
 
-A. Configure the `SearchMode` property of the `SearchParameters` class.
-B. Configure the `QueryType` property of the `SearchParameters` class.
-C. Configure the `Facets` property of the `SearchParameters` class.
-D. Configure the `Filter` property of the `SearchParameters` class.
+- A. Configure the `SearchMode` property of the `SearchParameters` class.
+- B. Configure the `QueryType` property of the `SearchParameters` class.
+- C. Configure the `Facets` property of the `SearchParameters` class.
+- D. Configure the `Filter` property of the `SearchParameters` class.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2678,10 +2678,10 @@ D. Configure the `Filter` property of the `SearchParameters` class.
 
 ### You are a developer at your company. You need to edit the workflows for an existing Logic App. What should you use?
 
-A. The Enterprise Integration Pack (EIP).
-B. The Logic App Code View.
-C. The API Connections.
-D. The Logic Apps Designer.
+- A. The Enterprise Integration Pack (EIP).
+- B. The Logic App Code View.
+- C. The API Connections.
+- D. The Logic Apps Designer.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2692,10 +2692,10 @@ D. The Logic Apps Designer.
 
 ### You are developing an application that applies a set of governance policies for internal and external services, as well as for applications. You develop a stateful ASP.NET Core 2.1 web application named `PolicyApp` and deploy it to an Azure App Service Web App. The `PolicyApp` reacts to events from Azure Event Grid and performs policy actions based on those events. You have the following requirements: Authentication events must be used to monitor users when they sign in and sign out. All authentication events must be processed by `PolicyApp`. Sign outs must be processed as fast as possible. What should you do?
 
-A. Create a new Azure Event Grid subscription for all authentication events. Use the subscription to process sign-out events.
-B. Create a separate Azure Event Grid handler for sign-in and sign-out events.
-C. Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events.
-D. Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
+- A. Create a new Azure Event Grid subscription for all authentication events. Use the subscription to process sign-out events.
+- B. Create a separate Azure Event Grid handler for sign-in and sign-out events.
+- C. Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events.
+- D. Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2710,10 +2710,10 @@ D. Add a subject prefix to sign-out events. Create an Azure Event Grid subscript
 ![Question 193 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 ![Question 193 part 3](images/question193.jpeg)
 
-A. Box 1: `"oauth2Permissions": ["login"]`. Box 2: `"oauth2AllowImplicitFlow": true`.
-B. Box 1: `"oauth2AllowIdTokenImplicitFlow": true`. Box 2: `"oauth2AllowImplicitFlow": true`.
-C. Box 1: `"allowPublicClient": true`. Box 2: `"knownClientApplications": ["ContentAnalysisService"]`.
-D. Box 1: `"oauth2Permissions": ["login"]`. Box 2: `"preAuthorizedApplications": ["SPA"]`.
+- A. Box 1: `"oauth2Permissions": ["login"]`. Box 2: `"oauth2AllowImplicitFlow": true`.
+- B. Box 1: `"oauth2AllowIdTokenImplicitFlow": true`. Box 2: `"oauth2AllowImplicitFlow": true`.
+- C. Box 1: `"allowPublicClient": true`. Box 2: `"knownClientApplications": ["ContentAnalysisService"]`.
+- D. Box 1: `"oauth2Permissions": ["login"]`. Box 2: `"preAuthorizedApplications": ["SPA"]`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2728,10 +2728,10 @@ D. Box 1: `"oauth2Permissions": ["login"]`. Box 2: `"preAuthorizedApplications":
 ![Question 194 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 ![Question 194 part 3](images/question194.jpeg)
 
-A. Box 1: `sid`. Box 2: `email`.
-B. Box 1: `platf`. Box 2: `sid`.
-C. Box 1: `tenant_ctry`. Box 2: `upn`.
-D. Box 1: `sid`. Box 2: `enfpolids`.
+- A. Box 1: `sid`. Box 2: `email`.
+- B. Box 1: `platf`. Box 2: `sid`.
+- C. Box 1: `tenant_ctry`. Box 2: `upn`.
+- D. Box 1: `sid`. Box 2: `enfpolids`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2746,10 +2746,10 @@ D. Box 1: `sid`. Box 2: `enfpolids`.
 ![Question 195 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 ![Question 195 part 3](images/question195.jpeg)
 
-A. SSL certificate: Self-signed certificate. Proxy type: nginx.
-B. SSL certificate: Self-signed certificate. Proxy type: Azure Application Gateway.
-C. SSL certificate: Valid root certificate. Proxy type: nginx.
-D. SSL certificate: Valid root certificate. Proxy type: Azure Application Gateway.
+- A. SSL certificate: Self-signed certificate. Proxy type: nginx.
+- B. SSL certificate: Self-signed certificate. Proxy type: Azure Application Gateway.
+- C. SSL certificate: Valid root certificate. Proxy type: nginx.
+- D. SSL certificate: Valid root certificate. Proxy type: Azure Application Gateway.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2762,10 +2762,10 @@ D. SSL certificate: Valid root certificate. Proxy type: Azure Application Gatewa
 
 ![Question 196](images/question196.png)
 
-A. Box 1: `"optionalClaims"`. Box 2: `"allowPublicClient"`.
-B. Box 1: `"optionalClaims"`. Box 2: `"requiredResourceAccess"`.
-C. Box 1: `"groupMembershipClaims"`. Box 2: `"oauth2Permissions"`.
-D. Box 1: `"groupMembershipClaims"`. Box 2: `"oauth2AllowimplicitFlow"`.
+- A. Box 1: `"optionalClaims"`. Box 2: `"allowPublicClient"`.
+- B. Box 1: `"optionalClaims"`. Box 2: `"requiredResourceAccess"`.
+- C. Box 1: `"groupMembershipClaims"`. Box 2: `"oauth2Permissions"`.
+- D. Box 1: `"groupMembershipClaims"`. Box 2: `"oauth2AllowimplicitFlow"`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2778,10 +2778,10 @@ D. Box 1: `"groupMembershipClaims"`. Box 2: `"oauth2AllowimplicitFlow"`.
 
 ![Question 197](images/question197.png)
 
-A. Box 1: `DefaultAzureCredential`. Box 2: `ClientSecretCredential`.
-B. Box 1: `CloudClients`. Box 2: `ClientSecretCredential`.
-C. Box 1: `ClientSecretCredential`. Box 2: `SecretClient`.
-D. Box 1: `SecretClient`. Box 2: `DefaultAzureCredential`.
+- A. Box 1: `DefaultAzureCredential`. Box 2: `ClientSecretCredential`.
+- B. Box 1: `CloudClients`. Box 2: `ClientSecretCredential`.
+- C. Box 1: `ClientSecretCredential`. Box 2: `SecretClient`.
+- D. Box 1: `SecretClient`. Box 2: `DefaultAzureCredential`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2794,10 +2794,10 @@ D. Box 1: `SecretClient`. Box 2: `DefaultAzureCredential`.
 
 ![Question 198](images/question198.jpg)
 
-A. Box 1: `ConfidentialClientApplicationBuilder`. Box 2: `app`.
-B. Box 1: `ConfidentialClientApplicationBuilder`. Box 2: `scopes`.
-C. Box 1: `GetAccountAsync()`. Box 2: `scopes`.
-D. Box 1: `ConfidentialClientApplication`. Box 2: `config`.
+- A. Box 1: `ConfidentialClientApplicationBuilder`. Box 2: `app`.
+- B. Box 1: `ConfidentialClientApplicationBuilder`. Box 2: `scopes`.
+- C. Box 1: `GetAccountAsync()`. Box 2: `scopes`.
+- D. Box 1: `ConfidentialClientApplication`. Box 2: `config`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2808,11 +2808,11 @@ D. Box 1: `ConfidentialClientApplication`. Box 2: `config`.
 
 ### You are developing an ASP.NET Core Web API web service. The web service uses Azure Application Insights for all telemetry and dependency tracking. The web service reads and writes data to a database other than Microsoft SQL Server. You need to ensure that dependency tracking works for calls to the third-party database. Which two dependency telemetry properties should you use?
 
-A. `Telemetry.Context.Cloud.RoleInstance`.
-B. `Telemetry.Id`.
-C. `Telemetry.Name`.
-D. `Telemetry.Context.Operation.Id`.
-E. `Telemetry.Context.Session.Id`.
+- A. `Telemetry.Context.Cloud.RoleInstance`.
+- B. `Telemetry.Id`.
+- C. `Telemetry.Name`.
+- D. `Telemetry.Context.Operation.Id`.
+- E. `Telemetry.Context.Session.Id`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2825,10 +2825,10 @@ E. `Telemetry.Context.Session.Id`.
 
 ![Question 200](images/question200.jpeg)
 
-A. Caching behavior: Override. Cache expiration duration: 1 hour. Query string caching behavior: Cache every unique URL.
-B. Caching behavior: Bypass cache. Cache expiration duration: 1 day. Query string caching behavior: Bypass caching for query strings.
-C. Caching behavior: Set if missing. Cache expiration duration: 1 second. Query string caching behavior: Ignore query strings.
-D. Caching behavior: Override. Cache expiration duration: 1 hour. Query string caching behavior: Ignore query strings.
+- A. Caching behavior: Override. Cache expiration duration: 1 hour. Query string caching behavior: Cache every unique URL.
+- B. Caching behavior: Bypass cache. Cache expiration duration: 1 day. Query string caching behavior: Bypass caching for query strings.
+- C. Caching behavior: Set if missing. Cache expiration duration: 1 second. Query string caching behavior: Ignore query strings.
+- D. Caching behavior: Override. Cache expiration duration: 1 hour. Query string caching behavior: Ignore query strings.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2841,10 +2841,10 @@ D. Caching behavior: Override. Cache expiration duration: 1 hour. Query string c
 
 ![Question 201](images/question201.jpg)
 
-A. Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Add a Scale rule. Box 4: Configure a Scale condition.
-B. Box 1: Enable autoscaling on the web app. Box 2: Add a Scale rule. Box 3:Configure a Scale condition. Box 4:Switch to an Azure App Services consumption plan.
-C. Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Configure a Scale condition. Box 4: SecretClient.
-D. Box 1: Switch to an Azure App Services consumption plan. Box 2: Configure the web app to the Premium App Service tier. Box 3: Enable autoscaling on the web app. Box 4: Configure a Scale condition.
+- A. Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Add a Scale rule. Box 4: Configure a Scale condition.
+- B. Box 1: Enable autoscaling on the web app. Box 2: Add a Scale rule. Box 3:Configure a Scale condition. Box 4:Switch to an Azure App Services consumption plan.
+- C. Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Configure a Scale condition. Box 4: SecretClient.
+- D. Box 1: Switch to an Azure App Services consumption plan. Box 2: Configure the web app to the Premium App Service tier. Box 3: Enable autoscaling on the web app. Box 4: Configure a Scale condition.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2857,10 +2857,10 @@ D. Box 1: Switch to an Azure App Services consumption plan. Box 2: Configure the
 
 ![Question 202](images/question202.jpeg)
 
-A. Box 1: Put a message on a queue. Box 2: Recurrence. Box 3: Condition. Box 4: When there are messages in a queue. Box 5: List blobs 2.
-B. Box 1: Recurrence. Box 2: Condition. Box 3: When there are messages in a queue. Box 4: Tier blob. Box 5: List blobs 2.
-C. Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: When there are messages in a queue. Box 5: Tier blob.
-D. Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: Tier blob. Box 5: List blobs 2.
+- A. Box 1: Put a message on a queue. Box 2: Recurrence. Box 3: Condition. Box 4: When there are messages in a queue. Box 5: List blobs 2.
+- B. Box 1: Recurrence. Box 2: Condition. Box 3: When there are messages in a queue. Box 4: Tier blob. Box 5: List blobs 2.
+- C. Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: When there are messages in a queue. Box 5: Tier blob.
+- D. Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: Tier blob. Box 5: List blobs 2.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2871,8 +2871,8 @@ D. Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: 
 
 ### You have an Azure Web app that uses Cosmos DB as a data store. You create a CosmosDB container by running the following PowerShell script: `$resourceGroupName = 'testResourceGroup' $accountName = 'testCosmosAccount' $databaseName = 'testDatabase' $containerName = 'testContainer' $partitionKeyPath = '/EmployeeId' $autoscaleMaxThroughput = 5000 New-AzCosmosDBSqlContainer - -ResourceGroupName $resourceGroupName -AccountName $accountName -DatabaseName $databaseName -Name $containerName -PartitionKeyKind Hash -PartitionKeyPath $partitionKeyPath -AutoscaleMaxThroughput $autoscaleMaxThroughput`. You create the following queries that target the container: `SELECT * FROM c WHERE c.EmployeeId > '12345' SELECT * FROM c WHERE c.UserID = '12345'`. Is the minimum throughput for the container 400 R/Us?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2883,8 +2883,8 @@ B. No.
 
 ### You have an Azure Web app that uses Cosmos DB as a data store. You create a CosmosDB container by running the following PowerShell script: `$resourceGroupName = 'testResourceGroup' $accountName = 'testCosmosAccount' $databaseName = 'testDatabase' $containerName = 'testContainer' $partitionKeyPath = '/EmployeeId' $autoscaleMaxThroughput = 5000 New-AzCosmosDBSqlContainer - -ResourceGroupName $resourceGroupName -AccountName $accountName -DatabaseName $databaseName -Name $containerName -PartitionKeyKind Hash -PartitionKeyPath $partitionKeyPath -AutoscaleMaxThroughput $autoscaleMaxThroughput`. You create the following queries that target the container: `SELECT * FROM c WHERE c.EmployeeId > '12345' SELECT * FROM c WHERE c.UserID = '12345'`. Is the first query statement an in-partition query?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2895,8 +2895,8 @@ B. No.
 
 ### You have an Azure Web app that uses Cosmos DB as a data store. You create a CosmosDB container by running the following PowerShell script: `$resourceGroupName = 'testResourceGroup' $accountName = 'testCosmosAccount' $databaseName = 'testDatabase' $containerName = 'testContainer' $partitionKeyPath = '/EmployeeId' $autoscaleMaxThroughput = 5000 New-AzCosmosDBSqlContainer - -ResourceGroupName $resourceGroupName -AccountName $accountName -DatabaseName $databaseName -Name $containerName -PartitionKeyKind Hash -PartitionKeyPath $partitionKeyPath -AutoscaleMaxThroughput $autoscaleMaxThroughput`. You create the following queries that target the container: `SELECT * FROM c WHERE c.EmployeeId > '12345' SELECT * FROM c WHERE c.UserID = '12345'`. Is the second query statement a cross-partition query?
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2907,10 +2907,10 @@ B. No.
 
 ### Your Microsoft Entra ID tenant has an Azure subscription linked to it. Your developer has created a mobile application that obtains Microsoft Entra ID access tokens using the OAuth 2 implicit grant type. The mobile application must be registered in Microsoft Entra ID. You require [a redirect URI] from the developer for registration purposes.
 
-A. No change required.
-B. a secret.
-C. a login hint.
-D. a client ID.
+- A. No change required.
+- B. a secret.
+- C. a login hint.
+- D. a client ID.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2923,10 +2923,10 @@ D. a client ID.
 
 ![Question 207](images/question207.png)
 
-A. Box 1: Funnels. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
-B. Box 1: Impact. Box 2: Funnels. Box 3: Retention. Box 4: User Flows.
-C. Box 1: Users. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
-D. Box 1: Impact. Box 2: Users. Box 3: User Flows. Box 4: Funnels.
+- A. Box 1: Funnels. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
+- B. Box 1: Impact. Box 2: Funnels. Box 3: Retention. Box 4: User Flows.
+- C. Box 1: Users. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
+- D. Box 1: Impact. Box 2: Users. Box 3: User Flows. Box 4: Funnels.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2939,8 +2939,8 @@ D. Box 1: Impact. Box 2: Users. Box 3: User Flows. Box 4: Funnels.
 
 ![Question 208](images/question208_209_210_211.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2953,8 +2953,8 @@ B. No.
 
 ![Question 209](images/question208_209_210_211.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2967,8 +2967,8 @@ B. No.
 
 ![Question 210](images/question208_209_210_211.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2981,8 +2981,8 @@ B. No.
 
 ![Question 211](images/question208_209_210_211.png)
 
-A. Yes.
-B. No.
+- A. Yes.
+- B. No.
 
 <details>
   <summary>Correct answer:</summary>
@@ -2996,10 +2996,10 @@ B. No.
 ![Question 212 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
 ![Question 212 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 
-A. Azure Storage queue.
-B. Azure Event Hub.
-C. Azure Service Bus topic.
-D. Azure Event Grid topic.
+- A. Azure Storage queue.
+- B. Azure Event Hub.
+- C. Azure Service Bus topic.
+- D. Azure Event Grid topic.
 
 <details>
   <summary>Correct answer:</summary>
@@ -3013,10 +3013,10 @@ D. Azure Event Grid topic.
 ![Question 213 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
 ![Question 213 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 
-A. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "avg Percentage CPU > 8"`.
-B. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "avg Percentage CPU > 800"`.
-C. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "CPU Usage > 800"`.
-D. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "CPU Usage > 8"`.
+- A. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "avg Percentage CPU > 8"`.
+- B. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "avg Percentage CPU > 800"`.
+- C. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "CPU Usage > 800"`.
+- D. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "CPU Usage > 8"`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -3030,10 +3030,10 @@ D. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "
 ![Question 214 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
 ![Question 214 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 
-A. `az webapp log`.
-B. `az ams live-output`.
-C. `az monitor activity-log`.
-D. `az container attach`.
+- A. `az webapp log`.
+- B. `az ams live-output`.
+- C. `az monitor activity-log`.
+- D. `az container attach`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -3048,10 +3048,10 @@ D. `az container attach`.
 ![Question 215 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 ![Question 215 part 3](images/question215.jpeg)
 
-A. Box 1: [CosmosDBTrigger("content", "userContent")]. Box 2: [Table("content", "userContent", "{name}")].
-B. Box 1: [CosmosDBTrigger("content", "userContent")]. Box 2: [Queue("userContent")].
-C. Box 1: [BlobTrigger("userContent/{name}")]. Box 2: [Blob("userContent/{name}", FileAccess.Write)].
-D. Box 1: [QueueTrigger("userContent")]. Box 2: [Blob("userContent/{name}", FileAccess.Write)].
+- A. Box 1: [CosmosDBTrigger("content", "userContent")]. Box 2: [Table("content", "userContent", "{name}")].
+- B. Box 1: [CosmosDBTrigger("content", "userContent")]. Box 2: [Queue("userContent")].
+- C. Box 1: [BlobTrigger("userContent/{name}")]. Box 2: [Blob("userContent/{name}", FileAccess.Write)].
+- D. Box 1: [QueueTrigger("userContent")]. Box 2: [Blob("userContent/{name}", FileAccess.Write)].
 
 <details>
   <summary>Correct answer:</summary>
@@ -3066,10 +3066,10 @@ D. Box 1: [QueueTrigger("userContent")]. Box 2: [Blob("userContent/{name}", File
 ![Question 216 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 ![Question 216 part 3](images/question216.jpeg)
 
-A. Box 1: `allowedAccountTypes`. Box 2: `User`. Box 3: `value`.
-B. Box 1: `role`. Box 2: `User`. Box 3: `value`.
-C. Box 1: `allowedMemberTypes`. Box 2: `User`. Box 3: `value`.
-D. Box 1: `allowedMemberTypes`. Box 2: `value`. Box 3: `User`.
+- A. Box 1: `allowedAccountTypes`. Box 2: `User`. Box 3: `value`.
+- B. Box 1: `role`. Box 2: `User`. Box 3: `value`.
+- C. Box 1: `allowedMemberTypes`. Box 2: `User`. Box 3: `value`.
+- D. Box 1: `allowedMemberTypes`. Box 2: `value`. Box 3: `User`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -3084,10 +3084,10 @@ D. Box 1: `allowedMemberTypes`. Box 2: `value`. Box 3: `User`.
 ![Question 217 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 ![Question 217 part 3](images/question217.jpeg)
 
-A. Box 1: `volumes`. Box 2: `volumeMounts`. Box 3: `secret`.
-B. Box 1: `volumeMounts`. Box 2: `volumes`. Box 3: `secret`.
-C. Box 1: `envVar`. Box 2: `secretValues`. Box 3: `environmentVariables`.
-D. Box 1: `secret`. Box 2: `environmentVariables`. Box 3: `secretValues`.
+- A. Box 1: `volumes`. Box 2: `volumeMounts`. Box 3: `secret`.
+- B. Box 1: `volumeMounts`. Box 2: `volumes`. Box 3: `secret`.
+- C. Box 1: `envVar`. Box 2: `secretValues`. Box 3: `environmentVariables`.
+- D. Box 1: `secret`. Box 2: `environmentVariables`. Box 3: `secretValues`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -3101,9 +3101,9 @@ D. Box 1: `secret`. Box 2: `environmentVariables`. Box 3: `secretValues`.
 ![Question 218 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
 ![Question 218 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 
-A. Premium plan.
-B. App Service plan.
-C. Consumption plan.
+- A. Premium plan.
+- B. App Service plan.
+- C. Consumption plan.
 
 <details>
   <summary>Correct answer:</summary>
@@ -3118,10 +3118,10 @@ C. Consumption plan.
 ![Question 219 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 ![Question 219 part 3](images/question219.jpeg)
 
-A. Box 1: `ImagePushed`. Box 2: `repository`. Box 3: `topic`.
-B. Box 1: `ImageDeployed`. Box 2: `service`. Box 3: `imageCollection`.
-C. Box 1: `RepositoryUpdated`. Box 2: `service`. Box 3: `imageCollection`.
-D. Box 1: `RepositoryItem`. Box 2: `aci`. Box 3: `topic`.
+- A. Box 1: `ImagePushed`. Box 2: `repository`. Box 3: `topic`.
+- B. Box 1: `ImageDeployed`. Box 2: `service`. Box 3: `imageCollection`.
+- C. Box 1: `RepositoryUpdated`. Box 2: `service`. Box 3: `imageCollection`.
+- D. Box 1: `RepositoryItem`. Box 2: `aci`. Box 3: `topic`.
 
 <details>
   <summary>Correct answer:</summary>
@@ -3135,10 +3135,10 @@ D. Box 1: `RepositoryItem`. Box 2: `aci`. Box 3: `topic`.
 ![Question 220 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
 ![Question 220 part 2](images/question193_194_195_212_213_214_215_216_217_218_219_220_2.jpeg)
 
-A. Add the following markup to line CS23: `type: Private`.
-B. Add the following markup to line CS24: `osType: Windows`.
-C. Add the following markup to line CS24: `osType: Linux`.
-D. Add the following markup to line CS23: `type: Public`.
+- A. Add the following markup to line CS23: `type: Private`.
+- B. Add the following markup to line CS24: `osType: Windows`.
+- C. Add the following markup to line CS24: `osType: Linux`.
+- D. Add the following markup to line CS23: `type: Public`.
 
 <details>
   <summary>Correct answer:</summary>
