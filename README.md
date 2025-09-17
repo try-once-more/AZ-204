@@ -11,7 +11,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Number of VM instances: 4. Pricing tier: Isolated.
+	D. Number of VM instances: 4. Pricing tier: Isolated.
 </details>
 
 
@@ -27,7 +27,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1, CRD type: Deployment. Box 2, CRD type: ScaledObject. Box 3, CRD type: Secret.
+	A. Box 1, CRD type: Deployment. Box 2, CRD type: ScaledObject. Box 3, CRD type: Secret.
 </details>
 
 
@@ -44,7 +44,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `az appservice plan create`. Box 2: `az webapp create`. Box 3: `--plan $webappname`. Box 4: `az webapp deployment`. Box 5: `--repo-url $gitrepo --branch master --manual-integration`.
+	B. Box 1: `az appservice plan create`. Box 2: `az webapp create`. Box 3: `--plan $webappname`. Box 4: `az webapp deployment`. Box 5: `--repo-url $gitrepo --branch master --manual-integration`.
 </details>
 
 
@@ -56,7 +56,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -68,7 +68,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -80,7 +80,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -92,7 +92,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -104,7 +104,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -120,7 +120,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Client certificate location: HTTP request header. Encoding type: Base64.
+	D. Client certificate location: HTTP request header. Encoding type: Base64.
 </details>
 
 
@@ -136,7 +136,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Box 1: `az group create`. Box 2: `az appservice plan create`. Box 3: `az webapp create`.
+	C. Box 1: `az group create`. Box 2: `az appservice plan create`. Box 3: `az webapp create`.
 </details>
 
 
@@ -152,7 +152,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`. Box 4: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`.
+	A. Box 1: `#/bin/bash appName='FourthCoffeePublicWeb$random' location='WestUS' dockerHubContainerPath='FourthCoffee/publicweb:v1' fqdn='http://www.fourthcoffee.com'>www.fourthcoffee.com`. Box 2: `az webapp create --name $appName --plan AppServiceLinuxDockerPlan --resource-group fourthCoffeePublicWebResourceGroup`. Box 3: `az webapp config container set --docker-custom-image-name $dockerHubContainerPath --name $appName --resource-group fourthCoffeePublicWebResourceGroup`. Box 4: `az webapp config hostname add --webapp-name $appName --resource-group fourthCoffeePublicWebResourceGroup --hostname $fqdn`.
 </details>
 
 
@@ -168,7 +168,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a system-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
+	B. Box 1: Create the Azure Functions app with a Premium plan type. Box 2: Create a system-assigned managed identity for the application. Box 3: Create an access policy in Azure Key Vault for the application identity.
 </details>
 
 
@@ -182,7 +182,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Deploy the website to an App Service that uses the Standard service tier. Configure the App Service plan to automatically scale when the CPU load is high.
+	D. Deploy the website to an App Service that uses the Standard service tier. Configure the App Service plan to automatically scale when the CPU load is high.
 </details>
 
 
@@ -198,7 +198,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `group`. Box 2: `appservice plan`. Box 3: `webapp`. Box 4: `webapp deployment slot`. Box 5: `webapp deployment source`.
+	A. Box 1: `group`. Box 2: `appservice plan`. Box 3: `webapp`. Box 4: `webapp deployment slot`. Box 5: `webapp deployment source`.
 </details>
 
 
@@ -214,7 +214,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Box 1: `getContext().getRequest();`. Box 2: `if (!('tip' in i)) {`. Box 3: `r.setBody(i);`.
+	C. Box 1: `getContext().getRequest();`. Box 2: `if (!('tip' in i)) {`. Box 3: `r.setBody(i);`.
 </details>
 
 
@@ -226,7 +226,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -238,7 +238,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -250,7 +250,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -262,7 +262,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -276,7 +276,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Enable the change feed on the storage account and process all changes for available events.
+	B. Enable the change feed on the storage account and process all changes for available events.
 </details>
 
 
@@ -292,7 +292,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: `FROM microsoft/aspnetcore:latest`. Box 2: `WORKDIR /apps/ContosoApp`. Box 3: `COPY ./ .`. Box 4: `RUN powershell ./setupScript.ps1`. Box 5: `CMD ['dotnet', 'ContosoApp.dll']`.
+	D. Box 1: `FROM microsoft/aspnetcore:latest`. Box 2: `WORKDIR /apps/ContosoApp`. Box 3: `COPY ./ .`. Box 4: `RUN powershell ./setupScript.ps1`. Box 5: `CMD ['dotnet', 'ContosoApp.dll']`.
 </details>
 
 
@@ -307,7 +307,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.
+	D. Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.
 </details>
 
 
@@ -323,7 +323,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `copyIndex`. Box 2: `copy`. Box 3: `dependsOn`.
+	A. Box 1: `copyIndex`. Box 2: `copy`. Box 3: `dependsOn`.
 </details>
 
 
@@ -337,7 +337,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -351,7 +351,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -365,7 +365,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -379,7 +379,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -395,7 +395,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: Strong. Box 2: Bounded Staleness. Box 3: Eventual.
+	D. Box 1: Strong. Box 2: Bounded Staleness. Box 3: Eventual.
 </details>
 
 
@@ -411,7 +411,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Generalize the VM: Azure PowerShell. Store images: Azure Blob Storage.
+	B. Generalize the VM: Azure PowerShell. Store images: Azure Blob Storage.
 </details>
 
 
@@ -425,7 +425,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Create a file named `.deployment` in the root of the repository that calls a script which generates the static content and deploys the website.
+	B. Add a `PreBuild` target in the websites `csproj` project file that runs the static content generation script.
+	D. Create a file named `.deployment` in the root of the repository that calls a script which generates the static content and deploys the website.
 </details>
 
 
@@ -441,7 +442,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Box 1: Export a Resource Manager template. Box 2: Create a new template deployment. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Use `AZCopy` to copy the data to the new storage account.
+	C. Box 1: Export a Resource Manager template. Box 2: Create a new template deployment. Box 3: Modify the template by changing the storage account name and region. Box 4: Deploy the template to create a new storage account in the target region. Box 5: Use `AZCopy` to copy the data to the new storage account.
 </details>
 
 
@@ -457,7 +458,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Firewall configuration: Run Command. Supporting services script: Custom Script Extension.
+	C. Firewall configuration: Run Command. Supporting services script: Custom Script Extension.
 </details>
 
 
@@ -473,7 +474,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `New-AzResourceGroup`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWebApp`. Box 4: `New-AzWebAppSlot`.
+	B. Box 1: `New-AzResourceGroup`. Box 2: `New-AzAppServicePlan`. Box 3: `New-AzWebApp`. Box 4: `New-AzWebAppSlot`.
 </details>
 
 
@@ -489,7 +490,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Box 1: `-IdentityId:` (note: screenshot has mistake, it should be `-IdentityType:` in the dropdown). Box 2: `$SystemAssigned`.
+	C. Box 1: `-IdentityId:` (note: screenshot has mistake, it should be `-IdentityType:` in the dropdown). Box 2: `$SystemAssigned`.
 </details>
 
 
@@ -501,7 +502,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -513,7 +514,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -527,7 +528,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -541,7 +542,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -555,7 +556,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -571,7 +572,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Enable developers to write the functions by using the Rust language: Custom handler. Declaratively connect to an Azure Blog Storage account: Extension bundle.
+	D. Enable developers to write the functions by using the Rust language: Custom handler. Declaratively connect to an Azure Blog Storage account: Extension bundle.
 </details>
 
 
@@ -588,7 +589,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. App setting: `WEBSITES_ENABLE_APP_SERVICE_STORAGE`. Value: `/home`.
+	A. App setting: `WEBSITES_ENABLE_APP_SERVICE_STORAGE`. Value: `/home`.
 </details>
 
 
@@ -602,7 +603,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. In the Azure Application Gateway's HTTP setting, set the value of the `Override` backend path option to `contoso22.azurewebsites.net`.
+	A. In the Azure Application Gateway's HTTP setting, enable the Use for App service setting.
+	D. In the Azure Application Gateway's HTTP setting, set the value of the `Override` backend path option to `contoso22.azurewebsites.net`.
 </details>
 
 
@@ -614,7 +616,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -630,7 +632,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -646,7 +648,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -662,7 +664,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -678,7 +680,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -692,7 +694,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -706,7 +708,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -720,7 +722,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -734,7 +736,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Between one and 15 hours.
+	B. Between one and 15 hours.
 </details>
 
 
@@ -750,7 +752,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `BoundedStaleness`. Box 2: `--enable-automatic-failover true \`. Box 3: `--locations 'southcentralplus=0 eastus=1 westus=2'`.
+	A. Box 1: `BoundedStaleness`. Box 2: `--enable-automatic-failover true \`. Box 3: `--locations 'southcentralplus=0 eastus=1 westus=2'`.
 </details>
 
 
@@ -768,7 +770,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `--sku B1 --is-linux`. Box 2: `--deployment-container-image-name images.azurecr.io/website:v1.0.0`. Box 3: `container set --docker-registry-server-url https://images.azurecr.io -u admin -p admin`.
+	B. Box 1: `--sku B1 --is-linux`. Box 2: `--deployment-container-image-name images.azurecr.io/website:v1.0.0`. Box 3: `container set --docker-registry-server-url https://images.azurecr.io -u admin -p admin`.
 </details>
 
 
@@ -784,7 +786,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Metric source: Service Bus queue. Metric name: Active Message Count. Time train statistic: Average. Operator: Less than or equal to. Operation: Decrease count by.
+	A. Metric source: Service Bus queue. Metric name: Active Message Count. Time train statistic: Average. Operator: Less than or equal to. Operation: Decrease count by.
 </details>
 
 
@@ -800,7 +802,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: `FetchAttributesAsync`. Box 2: `Metadata.Add`. Box 3: `SetMetadataAsync`.
+	D. Box 1: `FetchAttributesAsync`. Box 2: `Metadata.Add`. Box 3: `SetMetadataAsync`.
 </details>
 
 
@@ -812,7 +814,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -826,7 +828,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. `QueueClient`.
+	A. `QueueClient`.
 </details>
 
 
@@ -842,7 +844,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: Upgrade the storage account to GPv2. Box 2: Create a new GPv2 Standard account and set its default access tier level to cool. Box 3: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account.
+	B. Box 1: Upgrade the storage account to GPv2. Box 2: Create a new GPv2 Standard account and set its default access tier level to cool. Box 3: Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account.
 </details>
 
 
@@ -855,7 +857,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. `new CosmosClient(EndpointUri, PrimaryKey);`.
+	C. `new CosmosClient(EndpointUri, PrimaryKey);`.
 </details>
 
 
@@ -869,7 +871,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. `AzCopy`.
+	A. `AzCopy`.
 </details>
 
 
@@ -885,7 +887,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Code segment 1: `http://169.254.169.254:50432/metadata/identity/oauth2/token`. Code segment 2: `JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);`.
+	D. Code segment 1: `http://169.254.169.254:50432/metadata/identity/oauth2/token`. Code segment 2: `JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);`.
 </details>
 
 
@@ -903,7 +905,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `compositeIndexes`. Box 2: `descending`.
+	B. Box 1: `compositeIndexes`. Box 2: `descending`.
 </details>
 
 
@@ -919,7 +921,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Number of partitions: 6. Partition Key: Highway.
+	A. Number of partitions: 6. Partition Key: Highway.
 </details>
 
 
@@ -935,7 +937,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Deploy solution: `Helm`. View cluster and external addressing: `KubeCtl`. Implement a single, public IP endpoint that is routed to multiple microservices: `Ingress Controller`.
+	C. Deploy solution: `Helm`. View cluster and external addressing: `KubeCtl`. Implement a single, public IP endpoint that is routed to multiple microservices: `Ingress Controller`.
 </details>
 
 
@@ -953,7 +955,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `SQLFilter`. Box 2: `CorrelationFilter`. Box 3: `SQLFilter`. Box 4: `SQLFilter`. Box 5: No Filter.
+	A. Box 1: `SQLFilter`. Box 2: `CorrelationFilter`. Box 3: `SQLFilter`. Box 4: `SQLFilter`. Box 5: No Filter.
 </details>
 
 
@@ -969,7 +971,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location. Box 2: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server. Box 3: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. Box 4: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired.
+	B. Box 1: A user requests the image from the CDN URL. The DNS routes the request to the best performing POP location. Box 2: If no edge servers in the POP have the image in cache, the POP requests the file from the origin server. Box 3: The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. Box 4: Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired.
 </details>
 
 
@@ -984,7 +986,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	E. A hash suffix appended to a property value.
+	D. A concatenation of multiple property values with a random suffix appended.
+	E. A hash suffix appended to a property value.
 </details>
 
 
@@ -998,7 +1001,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1012,7 +1015,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1026,7 +1029,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1042,7 +1045,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Store the data from which the change feed is generated: Monitored container. Coordinate processing of the change feed across multiple workers: Lease container. Use the change feed processor to listen for changes: Host. Handle each batch of changes: Delegate.
+	D. Store the data from which the change feed is generated: Monitored container. Coordinate processing of the change feed across multiple workers: Lease container. Use the change feed processor to listen for changes: Host. Handle each batch of changes: Delegate.
 </details>
 
 
@@ -1058,7 +1061,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Box 1: In App Registrations, select New registration. Box 2: Select the Microsoft Entra ID instance (on picture still as Azure AD). Box 3: Create a new application and provide the name, account type, and redirect URI.
+	C. Box 1: In App Registrations, select New registration. Box 2: Select the Microsoft Entra ID instance (on picture still as Azure AD). Box 3: Create a new application and provide the name, account type, and redirect URI.
 </details>
 
 
@@ -1074,7 +1077,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. In Microsoft Entra ID, create a new conditional access policy.
+	B. MFA Enabled by conditional access policy.
+	C. In Microsoft Entra ID, create a new conditional access policy.
 </details>
 
 
@@ -1088,7 +1092,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Cosmos DB Operator.
+	C. Cosmos DB Operator.
 </details>
 
 
@@ -1100,7 +1104,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1112,7 +1116,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1124,7 +1128,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1140,7 +1144,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Enable retention period and accidental deletion: Soft delete. Enforce retention period and accidental deletion: Purge protection.
+	A. Enable retention period and accidental deletion: Soft delete. Enforce retention period and accidental deletion: Purge protection.
 </details>
 
 
@@ -1154,7 +1158,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Certificate Authentication.
+	A. Basic Authentication.
+	C. Certificate Authentication.
 </details>
 
 
@@ -1170,7 +1175,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Azure Storage Permission: `user_impersonation`. Azure Storage Type: `delegated`. Microsoft Graph Type: `delegated`.
+	C. Azure Storage Permission: `user_impersonation`. Azure Storage Type: `delegated`. Microsoft Graph Type: `delegated`.
 </details>
 
 
@@ -1186,7 +1191,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: `UseAuthentication`. Box 2: `UseAuthorization`. Box 3: `UseAzureAppConfiguration`.
+	D. Box 1: `UseAuthentication`. Box 2: `UseAuthorization`. Box 3: `UseAzureAppConfiguration`.
 </details>
 
 
@@ -1200,7 +1205,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Create a system assigned Managed Identity in each App Service with permission to access Key Vault.
+	C. Create a system assigned Managed Identity in each App Service with permission to access Key Vault.
 </details>
 
 
@@ -1212,7 +1217,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1224,7 +1229,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1236,7 +1241,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1252,7 +1257,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `keyvault`. Box 2: `keyvault key`. Box 3: `vm`. Box 4: `vm encryption`. Box 5: `all`.
+	A. Box 1: `keyvault`. Box 2: `keyvault key`. Box 3: `vm`. Box 4: `vm encryption`. Box 5: `all`.
 </details>
 
 
@@ -1266,7 +1271,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Managed identity.
+	C. Managed identity.
 </details>
 
 
@@ -1278,7 +1283,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1290,7 +1295,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1302,7 +1307,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1318,7 +1323,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Box 1: `Get-AzSubscription`. Box 2: `Set-AzContext -SubscriptionId $subscriptionID`. Box 3: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 4: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`. Box 5: `Get-AzKeyVaultSecret -VaultName $vaultName`.
+	C. Box 1: `Get-AzSubscription`. Box 2: `Set-AzContext -SubscriptionId $subscriptionID`. Box 3: `Get-AzStorageAccountKey -ResourceGroupName $resGroup -Name $storAcct`. Box 4: `$secretvalue = ConvertTo-SecureString $storAcctkey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue`. Box 5: `Get-AzKeyVaultSecret -VaultName $vaultName`.
 </details>
 
 
@@ -1330,7 +1335,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1342,7 +1347,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1358,7 +1363,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `Mobile`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `HTTP_USER_AGENT`. Box 4: `DeliveryRuleRequestHeaderConditionParameters`. Box 5: `iPhone`.
+	B. Box 1: `Mobile`. Box 2: `DeliveryRulelsDeviceConditionParameters`. Box 3: `HTTP_USER_AGENT`. Box 4: `DeliveryRuleRequestHeaderConditionParameters`. Box 5: `iPhone`.
 </details>
 
 
@@ -1370,7 +1375,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1382,7 +1387,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1396,7 +1401,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. The Metric signal type.
+	C. The Metric signal type.
 </details>
 
 
@@ -1410,7 +1415,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Configure the `QueryType` property of the `SearchParameters` class.
+	B. Configure the `QueryType` property of the `SearchParameters` class.
 </details>
 
 
@@ -1424,7 +1429,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. The Logic App Code View.
+	B. The Logic App Code View.
 </details>
 
 
@@ -1440,7 +1445,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `ago(1d)`. Box 2: `distinct ContainerID`. Box 3: `where ContainerID in (ContainerIDs)`. Box 4: `summarize count() by Computer`.
+	A. Box 1: `ago(1d)`. Box 2: `distinct ContainerID`. Box 3: `where ContainerID in (ContainerIDs)`. Box 4: `summarize count() by Computer`.
 </details>
 
 
@@ -1456,7 +1461,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `config`. Box 2: `--docker-container-logging`. Box 3: `webapp`. Box 4: `tail`.
+	A. Box 1: `config`. Box 2: `--docker-container-logging`. Box 3: `webapp`. Box 4: `tail`.
 </details>
 
 
@@ -1470,7 +1475,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Create an Event Grid topic that uses the `Start-AzureStorageBlobCopy` cmdlet.
+	B. Create an Event Grid topic that uses the `Start-AzureStorageBlobCopy` cmdlet.
 </details>
 
 
@@ -1486,7 +1491,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. caching-type: `External`. downstream-caching-type: `Private`. vary-by-header: `Authorization`.
+	D. caching-type: `External`. downstream-caching-type: `Private`. vary-by-header: `Authorization`.
 </details>
 
 
@@ -1499,7 +1504,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. `single path`.
+	A. `single path`.
 </details>
 
 
@@ -1515,7 +1520,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Set-variable: Inbound. Cache-lookup-value: Inbound. Cache-store-value: Outbound. Find-and-replace: Outbound.
+	A. Set-variable: Inbound. Cache-lookup-value: Inbound. Cache-store-value: Outbound. Find-and-replace: Outbound.
 </details>
 
 
@@ -1531,7 +1536,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: Register the application with the Microsoft identity platform. Box 2: Build a client by using the client app ID. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
+	A. Box 1: Register the application with the Microsoft identity platform. Box 2: Build a client by using the client app ID. Box 3: Create an authentication provider. Box 4: Create a new instance of the GraphServiceClient. Box 5: Invoke the request to the Microsoft Graph API.
 </details>
 
 
@@ -1547,7 +1552,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: Create a Log Analytics workspace. Box 2: Install the Logic Apps Management solution. Box 3: Add a diagnostic setting to the Azure Logic App.
+	A. Box 1: Create a Log Analytics workspace. Box 2: Install the Logic Apps Management solution. Box 3: Add a diagnostic setting to the Azure Logic App.
 </details>
 
 
@@ -1563,7 +1568,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: Create a Log Analytics workspace. Box 2: Add a VMInsights solution. Box 3: Install agents on the VM and VM scale set to be monitored. Box 4: Create an Application Insights resource.
+	A. Box 1: Create a Log Analytics workspace. Box 2: Add a VMInsights solution. Box 3: Install agents on the VM and VM scale set to be monitored. Box 4: Create an Application Insights resource.
 </details>
 
 
@@ -1579,7 +1584,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Rewrite the request URL to match to the format expected by the web service: Inbound. Remove formatting text from responses: Outbound. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Inbound.
+	A. Rewrite the request URL to match to the format expected by the web service: Inbound. Remove formatting text from responses: Outbound. Forward the user ID that is associated with the subscription key for the original request to the back-end service: Inbound.
 </details>
 
 
@@ -1593,7 +1598,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Managed identity.
+	C. Managed identity.
 </details>
 
 
@@ -1607,7 +1612,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. `validate-jwt`.
+	D. `validate-jwt`.
 </details>
 
 
@@ -1622,7 +1627,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Azure API Management.
+	A. Microsoft Graph API.
+	C. Azure API Management.
 </details>
 
 
@@ -1636,7 +1642,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Delete the stored access policy.
+	A. Revoke the delegation key.
+	B. Delete the stored access policy.
 </details>
 
 
@@ -1652,7 +1659,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM `vendor-provided` tool. Box 4: Run the `az keyvault key import` command.
+	D. Box 1: Generate a Key Exchange Key (KEK). Box 2: Retrieve the Key Exchange Key (KEK) public key. Box 3: Generate a key transfer blob file by using the HSM `vendor-provided` tool. Box 4: Run the `az keyvault key import` command.
 </details>
 
 
@@ -1667,7 +1674,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Create a user-assigned managed identity and assign role-based access controls.
+	A. Create a user-assigned managed identity and assign role-based access controls.
 </details>
 
 
@@ -1683,7 +1690,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Edit B2B Workflows: Enterprise Integration Pack. Edit definitions in JSON: Code View Editor. Visually add functionality: Logic Apps Designer.
+	A. Edit B2B Workflows: Enterprise Integration Pack. Edit definitions in JSON: Code View Editor. Visually add functionality: Logic Apps Designer.
 </details>
 
 
@@ -1697,7 +1704,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange object to parallelize the processing of the change feed across multiple functions.
+	C. Create an Azure Function to use a trigger for Azure Cosmos DB. Configure the trigger to connect to the container.
+	D. Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange object to parallelize the processing of the change feed across multiple functions.
 </details>
 
 
@@ -1711,7 +1719,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1725,7 +1733,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1739,7 +1747,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1755,7 +1763,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: Create a single Service Bus Namespace. Box 2: Create a single Service Bus topic. Box 3: Create a Service Bus subscription for each restaurant for which a driver can receive orders.
+	A. Box 1: Create a single Service Bus Namespace. Box 2: Create a single Service Bus topic. Box 3: Create a Service Bus subscription for each restaurant for which a driver can receive orders.
 </details>
 
 
@@ -1771,7 +1779,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `NotificationHubClient`. Box 2: `NotificationHubClient`. Box 3: `CreateClientFromConnectionString`. Box 4: `SendWindowsNativeNotificationAsync`.
+	A. Box 1: `NotificationHubClient`. Box 2: `NotificationHubClient`. Box 3: `CreateClientFromConnectionString`. Box 4: `SendWindowsNativeNotificationAsync`.
 </details>
 
 
@@ -1785,7 +1793,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Azure Service Bus Queue.
+	A. Azure Service Bus Topic.
+	B. Azure Service Bus Queue.
 </details>
 
 
@@ -1801,7 +1810,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Target: HTTP(s) endpoint. Gateway credentials: Client cert.
+	D. Target: HTTP(s) endpoint. Gateway credentials: Client cert.
 </details>
 
 
@@ -1817,7 +1826,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. WebHook event delivery: SAS tokens. Topic publishing: ValidationCode handshake.
+	A. WebHook event delivery: SAS tokens. Topic publishing: ValidationCode handshake.
 </details>
 
 
@@ -1831,7 +1840,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -1845,7 +1854,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1859,7 +1868,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1873,7 +1882,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. `Import-AzureRmApiManagementApi -Context $ApiMgmtContext -SpecificationFormat 'Swagger' -SpecificationPath $SwaggerPath -Path $Path`.
+	A. `Import-AzureRmApiManagementApi -Context $ApiMgmtContext -SpecificationFormat 'Swagger' -SpecificationPath $SwaggerPath -Path $Path`.
 </details>
 
 
@@ -1887,7 +1896,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Convert the Azure Function to the Premium plan.
+	C. Convert the Azure Function to the Premium plan.
 </details>
 
 
@@ -1903,7 +1912,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `on-error`. Box 2: `context`. Box 3: `context`. Box 4: `set-status`. Box 5: `on-error`.
+	A. Box 1: `on-error`. Box 2: `context`. Box 3: `context`. Box 4: `set-status`. Box 5: `on-error`.
 </details>
 
 
@@ -1919,7 +1928,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `windows`. Box 2: `application/octet-stream`.
+	A. Box 1: `windows`. Box 2: `application/octet-stream`.
 </details>
 
 
@@ -1934,7 +1943,8 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	C. URL ping.
+	B. TrackAvailablity.
+	C. URL ping.
 </details>
 
 
@@ -1950,7 +1960,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Event Source: Azure Blob Storage. Event Receiver: Azure Event Grid. Event Handler: Azure Logic App.
+	D. Event Source: Azure Blob Storage. Event Receiver: Azure Event Grid. Event Handler: Azure Logic App.
 </details>
 
 
@@ -1962,7 +1972,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1974,7 +1984,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -1986,7 +1996,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2002,7 +2012,7 @@
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache KeyDelete('Team');`.
+	B. Box 1: `IDatabase cache = Connection.GetDatabase();`. Box 2: `cache KeyDelete('Team');`.
 </details>
 
 
@@ -2019,7 +2029,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: Create a blank Logic app. Box 2: Add a logic app trigger that fires when one or more messages arrive in the queue. Box 3: Add an action that reads IoT temperature data from the Service Bus queue. Box 4: Add a condition that compares the temperature against the upper and lower thresholds. Box 5: Add an action that sends an email to
+	A. Box 1: Create a blank Logic app. Box 2: Add a logic app trigger that fires when one or more messages arrive in the queue. Box 3: Add an action that reads IoT temperature data from the Service Bus queue. Box 4: Add a condition that compares the temperature against the upper and lower thresholds. Box 5: Add an action that sends an email to
 </details>
 
 
@@ -2035,7 +2045,8 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Assign the value of the hazard message `MessageId` property to the `CorrelationId` property.
+	A. Assign the value of the hazard message `SessionID` property to the `ReplyToSessionId` property.
+	D. Assign the value of the hazard message `MessageId` property to the `CorrelationId` property.
 </details>
 
 
@@ -2050,7 +2061,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Set up a URL ping test to query the home page.
+	B. Set up a URL ping test to query the home page.
 </details>
 
 
@@ -2064,7 +2075,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Create a timer triggered function that calls `TrackAvailability()` and send the results to Application Insights.
+	B. Create a timer triggered function that calls `TrackAvailability()` and send the results to Application Insights.
 </details>
 
 
@@ -2078,7 +2089,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Azure Service Bus.
+	C. Azure Service Bus.
 </details>
 
 
@@ -2090,7 +2101,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2102,7 +2113,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2114,7 +2125,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2126,7 +2137,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2138,7 +2149,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2150,7 +2161,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2164,7 +2175,8 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Event Grid.
+	A. Service Bus.
+	C. Event Grid.
 </details>
 
 
@@ -2178,7 +2190,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. `subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);`.
+	D. `subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);`.
 </details>
 
 
@@ -2190,7 +2202,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2204,7 +2216,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. `New-AzureRmServiceBusQueue -ResourceGroupName fridge-rg -NamespaceName fridge-ns -Name fridge-q -EnablePartitioning $False`.
+	C. `New-AzureRmServiceBusQueue -ResourceGroupName fridge-rg -NamespaceName fridge-ns -Name fridge-q -EnablePartitioning $False`.
 </details>
 
 
@@ -2216,7 +2228,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2228,7 +2240,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2240,7 +2252,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2252,7 +2264,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2264,7 +2276,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2276,7 +2288,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2290,7 +2302,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. WebJobs.
+	B. WebJobs.
 </details>
 
 
@@ -2304,7 +2316,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Max Value.
+	D. Max Value.
 </details>
 
 
@@ -2318,7 +2330,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. From the `Redeploy` blade, click `Redeploy`.
+	C. From the `Redeploy` blade, click `Redeploy`.
 </details>
 
 
@@ -2330,7 +2342,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2342,7 +2354,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2356,7 +2368,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. 20.
+	B. 20.
 </details>
 
 
@@ -2368,7 +2380,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2380,7 +2392,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2394,7 +2406,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. `mongorestore`.
+	B. `mongorestore`.
 </details>
 
 
@@ -2406,7 +2418,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2418,7 +2430,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2430,7 +2442,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2442,7 +2454,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2454,7 +2466,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2468,7 +2480,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Enable Managed Service Identity (MSI).
+	C. Enable Managed Service Identity (MSI).
 </details>
 
 
@@ -2482,7 +2494,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. In Microsoft Entra ID, create a conditional access policy.
+	C. In Microsoft Entra ID, create a conditional access policy.
 </details>
 
 
@@ -2496,7 +2508,8 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. `EnableSoftDelete`.
+	B. `EnablePurgeProtection`.
+	D. `EnableSoftDelete`.
 </details>
 
 
@@ -2508,7 +2521,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2520,7 +2533,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2532,7 +2545,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2546,7 +2559,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Microsoft Entra ID integrated authentication.
+	C. Microsoft Entra ID integrated authentication.
 </details>
 
 
@@ -2560,7 +2573,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Run the `az keyvault update --enable-soft-delete true --enable-purge-protection true` CLI.
+	B. Run the `az keyvault update --enable-soft-delete true --enable-purge-protection true` CLI.
 </details>
 
 
@@ -2572,7 +2585,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2584,7 +2597,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2596,7 +2609,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2610,7 +2623,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Switch to the Standard App Service tier plan.
+	C. Switch to the Standard App Service tier plan.
 </details>
 
 
@@ -2622,7 +2635,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2634,7 +2647,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2646,7 +2659,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2658,7 +2671,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2672,7 +2685,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Configure the `Filter` property of the `SearchParameters` class.
+	D. Configure the `Filter` property of the `SearchParameters` class.
 </details>
 
 
@@ -2686,7 +2699,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. The Logic Apps Designer.
+	D. The Logic Apps Designer.
 </details>
 
 
@@ -2700,7 +2713,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
+	D. Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
 </details>
 
 
@@ -2718,7 +2731,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `"oauth2AllowIdTokenImplicitFlow": true`. Box 2: `"oauth2AllowImplicitFlow": true`.
+	B. Box 1: `"oauth2AllowIdTokenImplicitFlow": true`. Box 2: `"oauth2AllowImplicitFlow": true`.
 </details>
 
 
@@ -2736,7 +2749,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `sid`. Box 2: `email`.
+	A. Box 1: `sid`. Box 2: `email`.
 </details>
 
 
@@ -2754,7 +2767,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. SSL certificate: Valid root certificate. Proxy type: Azure Application Gateway.
+	D. SSL certificate: Valid root certificate. Proxy type: Azure Application Gateway.
 </details>
 
 
@@ -2770,7 +2783,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: `"groupMembershipClaims"`. Box 2: `"oauth2AllowimplicitFlow"`.
+	D. Box 1: `"groupMembershipClaims"`. Box 2: `"oauth2AllowimplicitFlow"`.
 </details>
 
 
@@ -2786,7 +2799,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: `SecretClient`. Box 2: `DefaultAzureCredential`.
+	D. Box 1: `SecretClient`. Box 2: `DefaultAzureCredential`.
 </details>
 
 
@@ -2802,7 +2815,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `ConfidentialClientApplicationBuilder`. Box 2: `scopes`.
+	B. Box 1: `ConfidentialClientApplicationBuilder`. Box 2: `scopes`.
 </details>
 
 
@@ -2817,7 +2830,8 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. `Telemetry.Context.Operation.Id`.
+	B. `Telemetry.Id`.
+	D. `Telemetry.Context.Operation.Id`.
 </details>
 
 
@@ -2833,7 +2847,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Caching behavior: Override. Cache expiration duration: 1 hour. Query string caching behavior: Cache every unique URL.
+	A. Caching behavior: Override. Cache expiration duration: 1 hour. Query string caching behavior: Cache every unique URL.
 </details>
 
 
@@ -2849,7 +2863,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Add a Scale rule. Box 4: Configure a Scale condition.
+	A. Box 1: Configure the web app to the Standard App Service tier. Box 2: Enable autoscaling on the web app. Box 3: Add a Scale rule. Box 4: Configure a Scale condition.
 </details>
 
 
@@ -2865,7 +2879,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: Tier blob. Box 5: List blobs 2.
+	D. Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: Tier blob. Box 5: List blobs 2.
 </details>
 
 
@@ -2877,7 +2891,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2889,7 +2903,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -2901,7 +2915,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2915,7 +2929,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. No change required.
+	A. No change required.
 </details>
 
 
@@ -2931,7 +2945,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: Funnels. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
+	A. Box 1: Funnels. Box 2: Impact. Box 3: Retention. Box 4: User Flows.
 </details>
 
 
@@ -2945,7 +2959,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2959,7 +2973,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2973,7 +2987,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Yes.
+	A. Yes.
 </details>
 
 
@@ -2987,7 +3001,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. No.
+	B. No.
 </details>
 
 
@@ -3004,7 +3018,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Azure Event Hub.
+	B. Azure Event Hub.
 </details>
 
 
@@ -3021,7 +3035,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "CPU Usage > 800"`.
+	C. `az monitor metrics alert create Cn alert Cg … - -scopes … - -condition "CPU Usage > 800"`.
 </details>
 
 
@@ -3038,7 +3052,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. `az container attach`.
+	D. `az container attach`.
 </details>
 
 
@@ -3056,7 +3070,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	D. Box 1: [QueueTrigger("userContent")]. Box 2: [Blob("userContent/{name}", FileAccess.Write)].
+	D. Box 1: [QueueTrigger("userContent")]. Box 2: [Blob("userContent/{name}", FileAccess.Write)].
 </details>
 
 
@@ -3074,7 +3088,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Box 1: `allowedMemberTypes`. Box 2: `User`. Box 3: `value`.
+	C. Box 1: `allowedMemberTypes`. Box 2: `User`. Box 3: `value`.
 </details>
 
 
@@ -3092,7 +3106,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. Box 1: `volumeMounts`. Box 2: `volumes`. Box 3: `secret`.
+	B. Box 1: `volumeMounts`. Box 2: `volumes`. Box 3: `secret`.
 </details>
 
 
@@ -3108,7 +3122,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	B. App Service plan.
+	B. App Service plan.
 </details>
 
 
@@ -3126,7 +3140,7 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	A. Box 1: `ImagePushed`. Box 2: `repository`. Box 3: `topic`.
+	A. Box 1: `ImagePushed`. Box 2: `repository`. Box 3: `topic`.
 </details>
 
 
@@ -3143,8 +3157,8 @@ specified personnel if the temperature is outside of those thresholds.
 <details>
   <summary>Correct answer:</summary>
 
-  	C. Add the following markup to line CS24: `osType: Linux`.
+	A. Add the following markup to line CS23: `type: Private`.
+	C. Add the following markup to line CS24: `osType: Linux`.
 </details>
-
 
 
